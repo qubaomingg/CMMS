@@ -1,0 +1,207 @@
+#result .content span { 
+    background: url('../../img/minus.png') no-repeat  0 0 #4A5151; 
+    border-radius: 4px 4px 4px 4px; 
+    -moz-border-radius: 4px 4px 4px 4px; 
+    -webkit-border-radius: 4px 4px 4px 4px; 
+    display: block; 
+    float:left;
+    margin:10px; 
+    color: #FFFFFF; 
+    font-size: 11px; 
+    font-style: normal; 
+    font-family: "微软雅黑";
+    margin-bottom: 15px; 
+    padding: 4px 18px; 
+    text-shadow: 0 1px 1px #000; 
+    behavior: url(../script/PIE.htc); 
+    cursor: pointer;
+}
+
+#result .done {
+    float: right;
+    margin: 10px;
+}
+
+#human_diagnose .body {
+    background: url('../../img/detail/body.png') no-repeat top center;
+    width: 200px;
+    height: 450px;
+    position: relative;
+    float: left
+}
+#human_diagnose .body span {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+#human_diagnose .body .foot {
+    width: 77px;
+    height: 36px;
+    top: 408px;
+    left: 67px;
+}
+#human_diagnose .body .foot:hover {
+    background: url('../../img/detail/foot.png');
+}
+#human_diagnose .body .leg {
+    width: 95px;
+    height: 123px;
+    top: 289px;
+    left: 55px;
+}
+#human_diagnose .body .leg:hover {
+    background: url('../../img/detail/leg.png');
+}
+#human_diagnose .body .arm_left {
+    width: 34px;
+    height: 42px;
+    top: 141px;
+    left: 32px;
+}
+#human_diagnose .body .arm_left:hover {
+    background: url('../../img/detail/arm_left.png');
+}
+#human_diagnose .body .arm_right {
+    width: 33px;
+    height: 42px;
+    top: 141px;
+    left: 141px;
+}
+#human_diagnose .body .arm_right:hover {
+    background: url('../../img/detail/arm_right.png');
+}
+#human_diagnose .body .hand_left {
+    width: 57px;
+    height: 62px;
+    top: 206px;
+    left: 3px;
+}
+#human_diagnose .body .hand_left:hover {
+    background: url('../../img/detail/hand_left.png');
+}
+#human_diagnose .body .hand_right {
+    width: 59px;
+    height: 62px;
+    left: 146px;
+    top: 206px;
+}
+#human_diagnose .body .hand_right:hover {
+    background: url('../../img/detail/hand_right.png');
+}
+#human_diagnose .body .neck {
+    width: 49px;
+    height: 15px;
+    top: 53px;
+    left: 80px;
+}
+#human_diagnose .body .neck:hover {
+    background: url('../../img/detail/neck.png');
+}
+#human_diagnose .body .head {
+    width: 41px;
+    height: 44px;
+    top: 5px;
+    left: 82px;
+}
+#human_diagnose .body .head:hover {
+    background: url('../../img/detail/head.png');
+}
+#human_diagnose .body .lung_left {
+    width: 38px;
+    height: 69px;
+    left: 66px;
+    top: 79px;
+}
+#human_diagnose .body .lung_left:hover {
+    background: url('../../img/detail/lung_left.png');
+}
+#human_diagnose .body .lung_right {
+    width: 38px;
+    height: 69px;
+    left: 103px;
+    top: 79px;
+}
+#human_diagnose .body .lung_right:hover {
+    background: url('../../img/detail/lung_right.png');
+}
+#human_diagnose .body .heart {
+    width: 19px;
+    height: 30px;
+    left: 103px;
+    top: 79px;
+}
+#human_diagnose .body .heart:hover {
+    background: url('../../img/detail/heart.png');
+}
+/*#human_diagnose .body .liver {
+    width: 49px;
+    height: 35px;
+    left: 103px;
+    top: 79px;
+}
+#human_diagnose .body .liver:hover {
+    background: url('../../img/detail/liver.png');
+}*/
+#human_diagnose .body .stomach {
+    width: 52px;
+    height: 48px;
+    left: 85px;
+    top: 136px;
+}
+#human_diagnose .body .stomach:hover {
+    background: url('../../img/detail/stomach.png');
+}
+#human_diagnose .body .gut {
+    width: 71px;
+    height: 81px;
+    left: 67px;
+    top: 173px;
+}
+#human_diagnose .body .gut:hover {
+    background: url('../../img/detail/gut.png');
+}
+#organ {
+    width: 175px;
+    float: left;
+    height: auto;
+}
+#organ .item {
+    float: left;
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+}
+#organ .item .veryhuo {
+    position: absolute;
+    width: 75px;
+    height: 74px;
+    background: #000;
+    opacity: 0;
+    top: 0;
+    filter: alpha(opacity=0);
+    border-radius: 40px;
+}
+#human_diagnose #selected_content {
+    width: 400px;
+    float: right;
+    margin-top: 50px;
+    font-size: 14px;
+}
+#human_diagnose #selected_content .content{
+    border-top: 1px dashed #D0D0D0;
+    padding-top: 5px;
+}
+
+#other .title { cursor:pointer; color: #333333; display:block; padding:10px 22px; margin-top:0;margin-bottom: 0; font-weight:bold; border-top:1px solid #E9E9EA; border-bottom:1px solid #D9D9DA; background: #E9E9EA; text-shadow: 0 1px 1px #FFFFFF; }
+
+#other .title:hover { color:#FFFFFF; background: #4A5151; text-shadow: 0 1px 1px #333333; behavior: url(js/PIE.htc); }
+#other .selected { color:#FFFFFF; background: #4A5151; background: -moz-linear-gradient(top, #4A5151 0%, #373E3E 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4A5151), color-stop(100%, #373E3E)); background: -webkit-linear-gradient(top, #4A5151 0%, #373E3E 100%); background: -o-linear-gradient(top, #4A5151 0%, #373E3E 100%); background: -ms-linear-gradient(top, #4A5151 0%, #373E3E 100%); background: linear-gradient(top, #4A5151 0%, #373E3E 100%); filter: progid:DXimgTransform.Microsoft.gradient( startColorstr='#4A5151', endColorstr='#373E3E', GradientType=0 );
+text-shadow: 0 1px 1px #333333; behavior: url(../script/PIE.htc); }
+#other .content{
+    height: auto;
+    display: none;
+}
+.symptom { background: url("../../img/hash.png") repeat scroll left top rgba(0, 0, 0, 0.01); color: #666; border-radius: 4px 4px 4px 4px; cursor: pointer;margin: 5px; -moz-border-radius: 4px 4px 4px 4px; -webkit-border-radius: 4px 4px 4px 4px; box-shadow: 0 1px 1px #C7C7C7; -webkit-box-shadow:  0 1px 1px #C7C7C7; -moz-box-shadow:  0 1px 1px #C7C7C7; behavior: url(js/PIE.htc); display: inline-block; margin-bottom: 3px; padding: 2px 6px; text-shadow: 0 1px 1px #FFFFFF; margin-bottom: 5px;}
+
+.symptom:hover { background: none repeat scroll 0 0 #666; color: #FFFFFF; text-shadow: 0 0 0 #FFFFFF; }
+
