@@ -1,24 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <title>登陆</title>
-    <!-- style -->
-    <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="../css/css/cmms.css" rel="stylesheet">
-  </head>
-<body>
-  
-  <div class="wraper">
-        
-  </div>
-  <script src="../js/lib/jquery.js"></script>
-  <script src="../js/lib/seajs/sea.js"
-        data-config="../js/config.js"
-        data-main="../js/main.js">
-  </script>
-  <script src="../css/lib/bootstrap-3.0.3/js/bootstrap.min.js"></script>
-</body>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            登陆
+        </title>
+        <!-- style -->
+        <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet"
+        media="screen">
+        <link href="../css/css/cmms.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="login-wraper">
+            <div class="login-logo">
+                <img src="../img/login/login_logo.png" alt="login-logo">
+            </div>
+            <div class="login-form">
+                <form action="" id="login" class="class="navbar-form navbar-left" role="search"">
+                    <fieldset>
+                        <legend class="ui-hide">login form</legend>
+                        <div  class="form-group">
+                            账号登陆
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="username" class="form-control" placeholder="用户名" autofocus="true">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" class="form-control" placeholder="密码">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="验证码">
+                            <img src="../img/login/login_capcha.png" alt="" class="login-captcha">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="form-control" value="登陆">
+                        </div>
+                        <div class="form-group">
+                            <a href="">忘记密码？</a>
+                            <a href="">快速注册</a>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="login-footer">
+                <span class="login-footer-item">版权所有</span>
+                <span class="login-footer-item">CMMS</span>
+                <span class="login-footer-item">电子科技大学</span>
+                <span class="login-footer-item">川公安网备编号</span>
+                <span class="login-footer-item">123456</span>
+                <span class="login-footer-item">Copyright</span>
+                <span class="login-footer-item">2004-2014</span>
+                <span class="login-footer-item">All</span>
+                <span class="login-footer-item">Rights Reserved</span>
+            </div>
+        </div>
+        <script src="../js/lib/jquery.js">
+        </script>
+        <script src="../js/lib/seajs/sea.js" data-config="../js/config.js" data-main="../js/main.js">
+        </script>
+        <script src="../css/lib/bootstrap-3.0.3/js/bootstrap.min.js">
+        </script>
+    </body>
+
 </html>
+    

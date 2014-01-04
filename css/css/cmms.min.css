@@ -71,8 +71,10 @@ td {
 body {
   background: url("../../img/body-bg.png") repeat scroll 50% 0 #f6f6f6;
   color: #666666;
-  font: 11px/1.8em 'Open Sans', Arial, Tahoma, sans-serif;
+  font: 12px/1.8em 'Open Sans', Arial, Tahoma, sans-serif;
+  font-family: "Microsoft YaHei", "微软雅黑", "MicrosoftJhengHei", "华文细黑", "STHeiti";
   margin: 0 auto;
+  font-size: 12px;
   overflow-x: hidden;
 }
 ol,
@@ -877,6 +879,9 @@ p {
 .ui-m0 {
   margin: 0;
 }
+.ui-hide {
+  display: none;
+}
 .ui-tof {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -907,5 +912,32 @@ p {
 }
 .ui-cur-p {
   cursor: pointer;
+}
+.login-wraper {
+  background: url('../../img/login/login_bg.jpg') 0 0 no-repeat;
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.login-wraper .login-form {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  background: #f0c;
+  right: 100px;
+  top: 50%;
+  margin-top: -200px;
+}
+.login-wraper .login-form fieldset {
+  outline: none;
+  border: none;
+}
+.login-wraper .login-logo {
+  position: absolute;
+  top: 300px;
+  left: 300px;
 }
 /*# sourceMappingURL=cmss.css.map */
