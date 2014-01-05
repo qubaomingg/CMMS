@@ -940,4 +940,8 @@ p {
   top: 300px;
   left: 300px;
 }
+#main {
+  width: 70%;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=cmss.css.map */
