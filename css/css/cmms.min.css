@@ -794,6 +794,9 @@ p {
 .ui-hide {
   display: none;
 }
+.ui-inline-bock {
+  display: inline-block;
+}
 .ui-mr20 {
   margin-right: 20px;
 }
@@ -839,31 +842,69 @@ p {
 * @author:　<qubaoming@gmail>;
 */
 .login-wraper {
-  background: url('../../img/login/login_bg.jpg') 0 0 no-repeat;
+  background: #fff;
   position: fixed;
   background-size: cover;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  text-align: center;
+}
+.login-wraper .login-contain {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.login-wraper .login-say {
+  font-size: 26px;
+  color: #555;
+  margin: 40px 0;
 }
 .login-wraper .login-form {
-  position: absolute;
-  width: 500px;
-  height: 400px;
-  background: #f0c;
-  right: 100px;
-  top: 50%;
-  margin-top: -200px;
+  padding-top: 0;
+  /* position: absolute;
+		width: 500px;
+		height: 400px;
+		background: #f0c;
+		
+		right: 100px;
+		top:50%;
+		margin-top: -200px; */
 }
 .login-wraper .login-form fieldset {
   outline: none;
   border: none;
+  background: #f7f7f7;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 0 40px 10px;
 }
-.login-wraper .login-logo {
+.login-wraper .login-name {
+  font-size: 18px;
+  color: #555;
+}
+.login-wraper .login-capcha {
+  display: inline-block;
+  width: 140px;
+  float: left;
+}
+.login-wraper .login-captcha-img {
+  float: right;
+  height: 34px;
+}
+.login-wraper .login-footer {
   position: absolute;
-  top: 300px;
-  left: 300px;
+  bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
 }
 /*
 * 注册页面样式
