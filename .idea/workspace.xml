@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/js/physique/physiqueMonitoring.js" description="//        radio.click(function(e) {&#10;//           c..." line="36" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f6e5ec8d-ff6f-4d2c-bff8-9fbdf10815b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/fourthDiagnosis.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/lib/bootstrap-3.0.3/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/css/lib/bootstrap-3.0.3/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css/cmms.css" afterPath="$PROJECT_DIR$/css/css/cmms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/cmms.less" afterPath="$PROJECT_DIR$/css/less/cmms.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css/cmms.min.css" afterPath="$PROJECT_DIR$/css/css/cmms.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css/cmss.css.map" afterPath="$PROJECT_DIR$/css/css/cmss.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/import-mod-physiqueMonitiring.less" afterPath="$PROJECT_DIR$/css/less/import-mod-physiqueMonitiring.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/physique/physiqueMonitoring.js" afterPath="$PROJECT_DIR$/js/physique/physiqueMonitoring.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CMMS.iws" />
@@ -30,16 +33,23 @@
     <favorites_list name="CMMS" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48346305">
+    <splitter split-orientation="horizontal" split-proportion="0.42955327">
       <split-first>
         <leaf>
-          <file leaf-file-name="fourthDiagnosis.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/html/fourthDiagnosis.html">
+          <file leaf-file-name="physiqueMonitoring.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/physiqueMonitoring.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="33" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.26666668" vertical-offset="513" max-vertical-offset="2356">
-                  <folding>
-                    <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-                  </folding>
+                <state line="97" column="21" selection-start="3353" selection-end="3353" vertical-scroll-proportion="0.18245614" vertical-offset="1739" max-vertical-offset="23484">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap.min.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/lib/bootstrap-3.0.3/js/bootstrap.min.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="0" selection-start="27881" selection-end="27881" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="304">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -48,19 +58,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="cmms.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
+          <file leaf-file-name="physiqueMonitoring.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/physique/physiqueMonitoring.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
+                <state line="70" column="45" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.39632106" vertical-offset="1093" max-vertical-offset="1691">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="import-mod-fourthDiagnosis.less" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less">
+          <file leaf-file-name="import-mod-physiqueMonitiring.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/less/import-mod-physiqueMonitiring.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.87455195" vertical-offset="272" max-vertical-offset="912">
+                <state line="9" column="21" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.2264152" vertical-offset="0" max-vertical-offset="2071">
                   <folding />
                 </state>
               </provider>
@@ -81,10 +91,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/less/cmms.less" />
         <option value="$PROJECT_DIR$/css/css/cmms.css" />
         <option value="$PROJECT_DIR$/html/fourthDiagnosis.html" />
         <option value="$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less" />
+        <option value="$PROJECT_DIR$/js/config.js" />
+        <option value="$PROJECT_DIR$/css/less/cmms.less" />
+        <option value="$PROJECT_DIR$/js/lib/jquery.js" />
+        <option value="$PROJECT_DIR$/css/lib/bootstrap-3.0.3/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/html/physiqueMonitoring.html" />
+        <option value="$PROJECT_DIR$/css/less/import-mod-physiqueMonitiring.less" />
+        <option value="$PROJECT_DIR$/js/physique/physiqueMonitoring.js" />
       </list>
     </option>
   </component>
@@ -162,6 +178,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="physique" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -194,7 +264,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,7 +282,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.0.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CMMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,16 +347,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -249,15 +361,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -270,6 +390,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f6e5ec8d-ff6f-4d2c-bff8-9fbdf10815b5" name="Default" comment="" />
@@ -279,7 +416,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -315,46 +452,91 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/reg/form-operate.js</url>
+          <line>143</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/physiqueMonitoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="69" selection-start="3461" selection-end="3461" vertical-scroll-proportion="0.0" vertical-offset="1739" max-vertical-offset="23484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lib/bootstrap-3.0.3/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="27881" selection-end="27881" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/physique/physiqueMonitoring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="85" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1672">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/fourthDiagnosis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="32" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="2356">
-          <folding>
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="56" column="42" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.0" vertical-offset="1064" max-vertical-offset="2356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
-          <folding />
-        </state>
+        <state line="10" column="31" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="304" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="912">
-          <folding />
-        </state>
+        <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/fourthDiagnosis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2356">
-          <folding>
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="35" column="33" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="2356" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="247">
-          <folding />
-        </state>
+        <state line="8" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fourthDiagnosis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="32" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="2356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/fourthDiagnosis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="2356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="247" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/index.html">
@@ -382,26 +564,85 @@
         <state line="0" column="12309" selection-start="12309" selection-end="12309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/less/import-mod-fourthDiagnosis.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="0.87455195" vertical-offset="272" max-vertical-offset="912">
-          <folding />
-        </state>
+        <state line="40" column="21" selection-start="816" selection-end="816" vertical-scroll-proportion="-9.207547" vertical-offset="272" max-vertical-offset="912" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/fourthDiagnosis.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="33" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.26666668" vertical-offset="513" max-vertical-offset="2356">
-          <folding>
-            <element signature="tag#footer#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="59" column="4" selection-start="1973" selection-end="1973" vertical-scroll-proportion="-2.0357144" vertical-offset="1064" max-vertical-offset="2356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reg/form-operate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.28595316" vertical-offset="0" max-vertical-offset="3116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/cmms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1772388" vertical-offset="0" max-vertical-offset="536" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="59" selection-start="457" selection-end="457" vertical-scroll-proportion="0.5908347" vertical-offset="0" max-vertical-offset="611" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reg/reg-dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="231" selection-end="231" vertical-scroll-proportion="0.41304347" vertical-offset="0" max-vertical-offset="2090" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reg/reg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="183" selection-end="183" vertical-scroll-proportion="0.28595316" vertical-offset="0" max-vertical-offset="855" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="23" selection-start="6073" selection-end="6073" vertical-scroll-proportion="0.2736842" vertical-offset="2827" max-vertical-offset="3420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lib/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="83639" selection-end="83639" vertical-scroll-proportion="0.22240803" vertical-offset="0" max-vertical-offset="598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/lib/bootstrap-3.0.3/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="27881" selection-end="27881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/physiqueMonitoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="21" selection-start="3353" selection-end="3353" vertical-scroll-proportion="0.18245614" vertical-offset="1739" max-vertical-offset="23484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/import-mod-physiqueMonitiring.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="178" selection-end="178" vertical-scroll-proportion="-3.2264152" vertical-offset="0" max-vertical-offset="2071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/physique/physiqueMonitoring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="45" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.39632106" vertical-offset="1093" max-vertical-offset="1691">
+          <folding />
         </state>
       </provider>
     </entry>
