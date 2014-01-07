@@ -9,7 +9,7 @@ seajs.config({
   },
   // Configure alias
   alias: {
-    'jquery': '../js/lib/jquery.js',
+    'jquery': 'lib/jquery',
     'jquery.easing': {
       src: '../js/lib/jquery.easing.1.3.js',
       deps: ['jquery']
@@ -18,5 +18,7 @@ seajs.config({
     area: "lib/jquery-plugin/location/area" ,
     location: 'lib/jquery-plugin/location/location',
     validation: "lib/jquery-plugin/validation/validation" ,
+    'form-operate': "reg/form-operate",
+    'reg-dialog': "reg/reg-dialog",
   }
 });
