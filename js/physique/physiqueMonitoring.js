@@ -18,25 +18,38 @@ define(function(require){
             target.find("input[type = 'text']").attr("id","inputError");
         } else {
             result.sexAgeRagion = getSexAgeRegion();
+            if(result.sexAgeRagion.sex === 'male'){
+                table.find("tr").eq(40).hide();
+            } else {
+                table.find("tr").eq(41).hide();
+            }
             $(".sexAge").slideUp();
             var firstTr = table.find("tr:eq(0) input");
             firstTr.removeAttr("disabled");
             table.find("tr:eq(0)").addClass("trbg");
             radioCheck();
-//            var firstInputvalue = table.find("input[name = '1'][checked]").val();
 
         }
     });
 
     function radioCheck() {
         var radio = table.find("tr");
-        var radioNum = radio.length;
-//        console.log(radio.eq(0).find("input[name = '1'][checked]").val());
-
+        var count = 0;
         radio.find("input").on("click", function(){
             var thisValue = $(this).val();
             if( thisValue !== undefined ){
-                this.parentNode
+
+                var tr = $(this).parents("tr");
+                var row_index = tr.index();
+
+                if( row_index >= count ){
+
+                    count = row_index;
+                    tr.removeClass("trbg");
+                    var nextTr = tr.next();
+                    nextTr.find("input").removeAttr("disabled");
+                    nextTr.addClass("trbg");
+                }
             }
         });
 
@@ -55,15 +68,14 @@ define(function(require){
 
     function regIsNumber(fData)
     {
-        var reg = new RegExp("^[-]?[0-9]+[\.]?[0-9]+$");
+        var reg = new RegExp("^-?[1-9]\d*$");
         return reg.test(fData)
     }
-
 
     function getSexAgeRegion() {
         var sexAgeRegion = {};
         var sexAge = $(".sexAge");
-        sexAgeRegion.sex = sexAge.find("input[name = 'sex'][checked]").val();
+        sexAgeRegion.sex = sexAge.find("input[type = 'radio'][name = 'sex']:checked").val();
         sexAgeRegion.age = sexAge.find("input[type = 'text']").val();
         sexAgeRegion.region = sexAge.find("select.form-control").val();
         return sexAgeRegion;
