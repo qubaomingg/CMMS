@@ -10,6 +10,7 @@ seajs.config({
   // Configure alias
   alias: {
     'jquery': 'lib/jquery',
+    'bootstrap': '../../css/lib/bootstrap-3.0.3/js/bootstrap.min.js',
     'jquery.easing': {
       src: '../js/lib/jquery.easing.1.3.js',
       deps: ['jquery']
