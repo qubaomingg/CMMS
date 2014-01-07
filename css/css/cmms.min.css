@@ -800,6 +800,12 @@ p {
 .ui-mr20 {
   margin-right: 20px;
 }
+.ui-w85p {
+  width: 85% !important;
+}
+.ui-w75p {
+  width: 75% !important;
+}
 .ui-vt {
   vertical-align: top !important;
 }
@@ -1055,6 +1061,20 @@ p {
 #main {
   width: 70%;
   margin: 0 auto;
+}
+/*
+* 注册页面样式
+* @author:　<qubaoming@gmail>;
+*/
+.body-test input {
+  width: 100%;
+}
+.body-test input[type="radio"] {
+  width: auto;
+  margin-left: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
 }
 section.introduction {
   width: 960px;

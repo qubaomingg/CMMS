@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 body {
-    background: url("../image/body-bg.png") repeat scroll 50% 0 #F6F6F6;
+    background: url("../../img/body-bg.png") repeat scroll 50% 0 #F6F6F6;
     color: #666666;
     font: 11px/1.8em 'Open Sans',Arial,Tahoma,sans-serif;
     margin: 0 auto;

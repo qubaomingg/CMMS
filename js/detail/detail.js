@@ -1,7 +1,6 @@
 define(function(require) {
 
 	var $ = require('jquery');
-  	require('jquery.easing');
 
 
   	// 器官区域交互
