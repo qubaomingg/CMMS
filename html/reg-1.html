@@ -149,7 +149,7 @@
 
                  <div class="form-group">
                     <label class="form-left-label"><span class="star">* </span>生育状况</label>
-                    <select name="" class="select form-control">
+                    <select name="" id="bear-condition" class="select form-control">
                         <option value="01">未生育</option>
                         <option value="01">已生育</option>
                     </select>
@@ -193,7 +193,7 @@
 
                 <div class="form-group reg-lay-one-line">
                     <label class="form-left-label"><span class="star">* </span>睡眠规律</label>
-                    <select name="" class="select form-control">
+                    <select name="" class="sleep-condition select form-control">
                         <option value="01">早睡</option>
                         <option value="02">晚睡</option>
                         <option value="03">迟睡</option>
@@ -202,7 +202,7 @@
                 
                 <div class="form-group reg-lay-one-line">
                     <label class="form-left-label"><span class="star">* </span>每日睡眠时间</label>
-                    <select name="" class="select form-control">
+                    <select name="" class="sleep-condition select form-control">
                         <option value="05">5小时</option>
                         <option value="06">6小时</option>
                         <option value="07">7小时</option>
@@ -282,18 +282,18 @@
 
                 <div class="form-group">
                     <label class="form-left-label">近一年发生的大事</label>
-                    <select name="" class="select form-control ui-mr20">
+                    <select name="" class="select form-control ui-mr20 events-in-year">
                         <option value="01">生娃</option>
                         <option value="02">结婚</option>
                         <option value="03">毕业</option>
                         <option value="03">其他</option>
                     </select>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control for-more-show">
                 </div>
 
                 <div class="form-group">
                     <label class="form-left-label"><span class="star">* </span>药物过敏史</label>
-                    <select name="" class="select form-control">
+                    <select name="" id="ill-bear" class="select form-control">
                         <option value="01">青霉素</option>
                         <option value="02">氨基酸</option>
                         <option value="03">无</option>
@@ -303,7 +303,7 @@
                 <div class="form-group">
                     <label class="form-left-label ui-vt"><span class="star">* </span>疾病信息</label>
                     <div class="reg-right-table">
-                    	<table class="table table-bordered">
+                    	<table class="table table-bordered ">
 	                        <thead>
 	                            <tr>
 	                                <th>病名</th>
@@ -315,15 +315,8 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                  <td>癌症</td>
-	                                  <td>2010-12-23</td>
-	                                  <td>2012-12-23</td>
-	                                  <td>2013-12-23</td>
-	                                  <td>无</td>
-	                            </tr>
-	                            <tr>
 	                                  <td colspan="5" class="ui-center">
-	                                      <a href="" class="btn btn-default">添加</a>
+	                                      <a href="" class="btn btn-default illness-info-add">添加</a>
 	                                  </td>
 	                            </tr>
 	                        </tbody>
@@ -345,12 +338,8 @@
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                  <td>父亲</td>
-	                                  <td>无</td>
-	                            </tr>
-	                            <tr>
 	                                  <td colspan="2" class="ui-center">
-	                                      <a href="" class="btn btn-default">添加</a>
+	                                      <a href="" class="btn btn-default family-illness-add">添加</a>
 	                                  </td>
 	                            </tr>
 	                        </tbody>
@@ -369,18 +358,16 @@
 	                    <table class="table table-bordered">
 	                        <thead>
 	                            <tr>
-	                                <th>名臣</th>
-	                                <th>家族病</th>
+	                                <th>名称</th>
+                                    <th>手术时间</th>
+                                    <th>痊愈时间</th>
+	                                <th>后遗症</th>
 	                            </tr>
 	                        </thead>
 	                        <tbody>
 	                            <tr>
-	                                  <td>父亲</td>
-	                                  <td>无</td>
-	                            </tr>
-	                            <tr>
-	                                  <td colspan="2" class="ui-center">
-	                                      <a href="" class="btn btn-default">添加</a>
+	                                  <td colspan="4" class="ui-center">
+	                                      <a href="" class="btn btn-default surgery-add">添加</a>
 	                                  </td>
 	                            </tr>
 	                        </tbody>
@@ -389,11 +376,17 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="form-left-label">药物依赖情况</label>
-                    <input type="text" class="form-control">
+                    <label class="form-left-label ui-vt">药物依赖情况</label>
+                    <textarea class="form-control" name="" id="drug-dep">
                     </textarea>
                     
                 </div>
+                <div class="form-group">
+                    <label class="form-left-label"></label>
+                    <button class="btn btn-default reg1-submit" type="submit">完善资料</button>
+                    <span class="reg1-submit-error">信息不完整，请完善信息</span>
+                </div>
+                
             </fieldset>
         </form>
     </div>
@@ -412,3 +405,4 @@
   </script>
 </body>
 </html>
+

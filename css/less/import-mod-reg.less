@@ -1,4 +1,17 @@
+/*
+* 注册页面样式
+* @author:　<qubaoming@gmail>;
+*/
+
 #reg, #reg_more {
+	.reg-submit-error, .reg1-submit-error {
+		display: none;
+		vertical-align: middle;
+		margin-left: 5px;
+	}
+	.reg1-submit {
+		margin-top: 10px;
+	}
 	fieldset {
 		outline: none;
 		border: none;
@@ -27,7 +40,7 @@
 			margin-left: 0;
 		}
 	}
-	.birth-day {
+	.birth-place {
 		display: inline-block;
 		select {
 			margin-right: 10px;
@@ -74,8 +87,11 @@
 		display: inline-block;
 
 	}
-	#illness {
+	#illness, #drug-dep {
 		height: 150px;
 		width: 430px;
+	}
+	.for-more-show {
+		display: none;
 	}
 }
