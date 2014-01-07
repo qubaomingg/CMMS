@@ -9,6 +9,7 @@ define(function(require){
     var result = {};
     var table = $(".sixtyQuestion").find("table");
     table.find("input[type = 'radio']").attr("disabled","disabled");
+
     $(".sexAge").find("button").on("click",function(){
         var formTestResult = formTest();
         if( false === formTestResult ) {
@@ -21,6 +22,7 @@ define(function(require){
             var firstTr = table.find("tr:eq(0) input");
             firstTr.removeAttr("disabled");
             table.find("tr:eq(0)").addClass("trbg");
+            radioCheck();
 //            var firstInputvalue = table.find("input[name = '1'][checked]").val();
 
         }
@@ -29,9 +31,17 @@ define(function(require){
     function radioCheck() {
         var radio = table.find("tr");
         var radioNum = radio.length;
+//        console.log(radio.eq(0).find("input[name = '1'][checked]").val());
+
+        radio.find("input").on("click", function(){
+            var thisValue = $(this).val();
+            if( thisValue !== undefined ){
+                this.parentNode
+            }
+        });
 
     }
-    radioCheck();
+
 
     function formTest(){
         var age = $(".sexAge").find("input[type = 'text']").val();

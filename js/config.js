@@ -20,5 +20,6 @@ seajs.config({
     validation: "lib/jquery-plugin/validation/validation" ,
     'form-operate': "reg/form-operate",
     'reg-dialog': "reg/reg-dialog",
+    'physiqueMonitoring':"physique/physiqueMonitoring"
   }
 });

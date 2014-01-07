@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>体质监测</title>
     <!-- style -->
     <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -76,7 +75,7 @@
             </label>
         </div>
         <div class = "age ">
-            <label>年龄&nbsp;<input class="form-control" type="text"    placeholder="请输入您的年龄"></label>
+            <label>年龄&nbsp;<input class="form-control" type="text"    placeholder="请输入您的年龄" autofocus="true"></label>
         </div>
         <div class = "region">
             <label>地域&nbsp;<select class="form-control">
@@ -95,19 +94,19 @@
             <tr>
                 <td class = "qest">您精力充沛吗？</td>
                 <td class = "none">
-                    <label><input type="radio" name = "1" value = "none"/>没有</label>
+                    <label><input type="radio" name = "1" value = "1"/>没有</label>
                 </td>
                 <td class = "little">
-                    <label><input type="radio" name = "1"/>很少</label>
+                    <label><input type="radio" name = "1" value = "2" />很少</label>
                 </td>
                 <td class = "sometime">
-                    <label><input type="radio" name = "1"/>有时</label>
+                    <label><input type="radio" name = "1" value = "3"/>有时</label>
                 </td>
                 <td class = "often">
-                    <label><input type="radio" name = "1"/>经常</label>
+                    <label><input type="radio" name = "1" value = "4"/>经常</label>
                 </td>
                 <td class = "always">
-                    <label><input type="radio" name = "1"/>总是</label>
+                    <label><input type="radio" name = "1" value = "5"/>总是</label>
                 </td>
             </tr>
             <tr>
@@ -1220,13 +1219,13 @@
         </div>
     </div>
 </footer>
-<script src="../js/lib/jquery.js"></script>
+
 
 <script src="../js/lib/seajs/sea.js"
         data-config="../js/config.js"
-        data-main="../js/main.js">
+        data-main="../js/physique/physiqueMonitoring.js">
 </script>
-
+<script src="../js/lib/jquery.js"></script>
 <script src="../css/lib/bootstrap-3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>

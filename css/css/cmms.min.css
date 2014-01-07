@@ -1058,4 +1058,98 @@ section.question button.prev {
 section.question button.next {
   margin-left: 400px;
 }
+h1 {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 22px;
+  text-align: center;
+}
+section.questionsContent {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+section.questionsContent .sexAge {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+}
+section.questionsContent .sexAge .sex label {
+  margin-left: 20px;
+}
+section.questionsContent .sexAge .sex label.sexLabel {
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 0px;
+}
+section.questionsContent .sexAge .age {
+  margin-top: 20px;
+}
+section.questionsContent .sexAge .age label {
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  font-weight: normal;
+}
+section.questionsContent .sexAge .age label input[type="text"] {
+  width: 850px;
+  float: right;
+}
+section.questionsContent .sexAge .region {
+  margin-top: 20px;
+}
+section.questionsContent .sexAge .region label {
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  font-weight: normal;
+}
+section.questionsContent .sexAge .region label select {
+  width: 850px;
+  float: right;
+}
+section.questionsContent .sexAge button {
+  margin-left: 820px;
+}
+section.questionsContent .sixtyQuestion {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+section.questionsContent .sixtyQuestion table {
+  width: 960px;
+  margin: 0 auto;
+}
+section.questionsContent .sixtyQuestion table tr .qest {
+  width: 510px;
+  font-size: 14px;
+}
+section.questionsContent .sixtyQuestion table tr .none {
+  width: 70px;
+}
+section.questionsContent .sixtyQuestion table tr .little {
+  width: 70px;
+}
+section.questionsContent .sixtyQuestion table tr .sometime {
+  width: 70px;
+}
+section.questionsContent .sixtyQuestion table tr .often {
+  width: 70px;
+}
+section.questionsContent .sixtyQuestion table tr .always {
+  width: 70px;
+}
+section.questionsContent .sixtyQuestion table tr:first-child td {
+  font-weight: bold;
+}
+section.questionsContent .sixtyQuestion table tr:first-child td:first-child {
+  font-weight: normal;
+}
+.trbg {
+  background-color: antiquewhite;
+  font-size: 14px;
+}
 /*# sourceMappingURL=cmss.css.map */
