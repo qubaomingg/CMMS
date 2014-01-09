@@ -1,6 +1,6 @@
 define(function (require) {
-    var $ = require('jquery');
-    require('jquery.easing');
+    var $ = require("jquery");
+    require('bootstrap');
 
     $('.carousel').carousel();
 });

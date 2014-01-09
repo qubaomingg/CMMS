@@ -71,37 +71,28 @@
         <span>四诊指的是望、闻、问、切，古称“诊法”。</span>
     </section>
     <section class = "question">
-        <p>2.您觉得您的胖瘦情况（单选）</p>
-        <div class="radio">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-                正常
-            </label>
+
+
+         <p>请选择您的性别（单选）</p>
+        <div class = "selectQuestion">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sex"   value="female" checked>
+                    女
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="sex"   value="male">
+                    男
+                </label>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg firstNext "> 下一题</button>
+
         </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                偏胖
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                偏瘦
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                肥胖
-            </label>
-        </div>
-        <div class="radio">
-            <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5">
-                非常瘦
-            </label>
-        </div></br>
+
+
         <button type="button" class="btn btn-primary btn-lg prev">上一题</button>
         <button type="button" class="btn btn-primary btn-lg next">下一题</button>
     </section>
@@ -112,14 +103,11 @@
             </div>
         </div>
     </footer>
-    <script src="../js/lib/jquery.js"></script>
+    
 
     <script src="../js/lib/seajs/sea.js"
             data-config="../js/config.js"
-            data-main="../js/main.js">
+            data-main="../js/fourthDiagnosis/fourthDiagnosis.js">
     </script>
-
-    <script src="../css/lib/bootstrap-3.0.3/js/bootstrap.min.js"></script>
-
 </body>
 </html>
