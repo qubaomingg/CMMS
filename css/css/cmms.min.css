@@ -1077,7 +1077,8 @@ section.introduction span:last-child {
 }
 section.question {
   width: 950px;
-  height: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
   margin-top: 40px;
   border: 5px solid #ededed;
@@ -1088,21 +1089,30 @@ section.question p {
   font-size: 20px;
   color: #666;
 }
-section.question div.radio {
-  display: inline-block;
-  margin-left: 90px;
+section.question div.selectQuestion div {
+  margin-left: 150px;
   vertical-align: super;
 }
+section.question div.selectQuestion button {
+  margin-left: 400px;
+}
 section.question button.prev {
+  display: none;
   margin-left: 90px;
 }
 section.question button.next {
+  display: none;
   margin-left: 400px;
 }
 h1 {
   margin: 0 auto;
-  font-size: 22px;
+  font-size: 33px;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  box-sizing: border-box;
 }
 section.questionsContent {
   width: 960px;
@@ -1188,8 +1198,80 @@ section.questionsContent .sixtyQuestion table tr:first-child td {
 section.questionsContent .sixtyQuestion table tr:first-child td:first-child {
   font-weight: normal;
 }
+section.questionsContent .sixtyQuestion button {
+  margin-top: 20px;
+  margin-left: 860px;
+}
 .trbg {
   background-color: antiquewhite;
   font-size: 14px;
+}
+h1 {
+  margin: 0 auto;
+  font-size: 33px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  box-sizing: border-box;
+}
+.content {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+.content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.content p.leadP {
+  font-size: 18px;
+  width: 800px;
+  margin: 0 auto;
+  text-indent: 36px;
+}
+.content .suggest p.leadP {
+  font-size: 16px;
+  width: 600px;
+  margin: 0 auto;
+  text-indent: 36px;
+}
+.content .suggest p:first-child {
+  text-indent: -36px;
+  padding-bottom: 10px;
+}
+.content address {
+  width: 500px;
+  margin: 0 auto;
+  text-indent: 36px;
+  margin-bottom: 20px;
+}
+.content address a {
+  font-size: 18px;
+  color: lightblue;
+  text-decoration: underline;
+}
+.content canvas {
+  border: 1px solid #f2dede;
+  height: 230px;
+  width: 800px;
+  margin-left: 78px;
+  margin-top: 20px;
+}
+.content .graphicName {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content .graphicName span {
+  margin-left: 41px;
 }
 /*# sourceMappingURL=cmss.css.map */

@@ -19,9 +19,9 @@ define(function(require){
         } else {
             result.sexAgeRagion = getSexAgeRegion();
             if(result.sexAgeRagion.sex === 'male'){
-                table.find("tr").eq(40).hide();
+                table.find("tr").eq(40).remove();
             } else {
-                table.find("tr").eq(41).hide();
+                table.find("tr").eq(41).remove();
             }
             $(".sexAge").slideUp();
             var firstTr = table.find("tr:eq(0) input");
@@ -41,8 +41,10 @@ define(function(require){
 
                 var tr = $(this).parents("tr");
                 var row_index = tr.index();
+                console.log(row_index);
 
                 if( row_index >= count ){
+                    console.log(row_index);
 
                     count = row_index;
                     tr.removeClass("trbg");
@@ -68,7 +70,9 @@ define(function(require){
 
     function regIsNumber(fData)
     {
-        var reg = new RegExp("^-?[1-9]\d*$");
+        var reg = new RegExp("^[0-9]+$");
+        var a = reg.test(fData);
+        console.log(a);
         return reg.test(fData)
     }
 
@@ -82,3 +86,13 @@ define(function(require){
     }
 
 });
+    function buttonClick() {
+        $(".sixtyQuestion").on("click", function (){
+            var value = $("table tr:last-child").find("input[type = 'radio'][name = '62']").val();
+            console.log(value);
+            if (value === ""){
+                alert("请先完成大题后再提交");
+             }
+        });
+    }
+    buttonClick();

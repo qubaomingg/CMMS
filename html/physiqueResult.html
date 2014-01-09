@@ -3,12 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        四诊
-    </title>
-    <!-- style -->
-    <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet"
-          media="screen">
+
+    <title>中医药自助式健康管理系统</title>
+    <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="../css/css/cmms.css" rel="stylesheet">
 </head>
 <body>
@@ -65,37 +62,35 @@
         </section>
         <div class="clear"></div>
     </header>
-    <section class = "introduction">
-        <span>四诊</span>
-        <span>--</span>
-        <span>四诊指的是望、闻、问、切，古称“诊法”。</span>
-    </section>
-    <section class = "question">
-
-
-         <p>请选择您的性别（单选）</p>
-        <div class = "selectQuestion">
-            <div class="radio">
-                <label>
-                    <input type="radio" name="sex"   value="female" checked>
-                    女
-                </label>
-            </div>
-            <div class="radio">
-                <label>
-                    <input type="radio" name="sex"   value="male">
-                    男
-                </label>
-            </div>
-
-            <button type="button" class="btn btn-primary btn-lg firstNext "> 下一题</button>
+    <h1>体质监测—通过国家标准体质测试判定体质类型</h1>
+    <section class = "content">
+        <h2>体质结果</h2>
+        <p class = "lead leadP">
+            您的体质结果是 <span>气郁质。（倾向气虚质，湿热质）气郁质是XXXXXX</span>根据您的体质结果推荐您从 <span>气郁质</span>开始着手，进行改善
+        </p>
+        <canvas id="tutorial" height="230" width="800"></canvas>
+        <div class = "graphicName">
+            <span>阳虚质</span>
+            <span>阴虚质</span>
+            <span>气虚质</span>
+            <span>炎湿质</span>
+            <span>湿热质</span>
+            <span>血瘀质</span>
+            <span>特禀质</span>
+            <span>气郁质</span>
+            <span>平和质</span>
 
         </div>
-
-
-        <button type="button" class="btn btn-primary btn-lg prev">上一题</button>
-        <button type="button" class="btn btn-primary btn-lg next">下一题</button>
+        <div class = "suggest">
+            <p class = "lead leadP">对 <span>XX质</span>人群的建议：</p>
+            <p class = "lead leadP">多喝水多喝水多喝水多喝水多喝水多喝水多喝水多喝水</p>
+            <p class = "lead leadP">多喝水多喝水多喝水多喝水多喝水多喝水多喝水多喝水</p>
+        </div>
+        <address>
+            <a   href="mailto:#">为进一步进行体检诊断，请使用四诊监测</a>
+        </address>
     </section>
+
     <footer id="footer">
         <div id="footer_bot">
             <div class="footer_wrapper">
@@ -107,10 +102,9 @@
 
     <script src="../js/lib/seajs/sea.js"
             data-config="../js/config.js"
-            data-main="../js/fourth/fourthDiagnosis.js">
+            data-main="../js/phyResult/physiqueResult.js">
     </script>
 
     <script src="../css/lib/bootstrap-3.0.3/js/bootstrap.min.js"></script>
-
 </body>
 </html>
