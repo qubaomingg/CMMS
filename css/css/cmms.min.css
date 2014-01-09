@@ -299,48 +299,6 @@ ul.sf_menu li li li.sfHover ul {
 .sf_menu > li li.sfHover > a {
   color: #666666;
 }
-a.small:link,
-a.small:visited,
-a.medium:link,
-a.medium:visited,
-a.large:link,
-a.large:visited,
-a.xlarge:link,
-a.xlarge:visited {
-  font-size: 12px;
-  font-weight: bold;
-  float: left;
-  padding: 6px 10px;
-  margin-right: 15px;
-  color: #000;
-  text-shadow: 0 1px 1px #FDDD04;
-  background: #FDDD04;
-  background: -moz-linear-gradient(top, #fddd04 0%, #ddc000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fddd04), color-stop(100%, #ddc000));
-  background: -webkit-linear-gradient(top, #fddd04 0%, #ddc000 100%);
-  background: -o-linear-gradient(top, #fddd04 0%, #ddc000 100%);
-  background: -ms-linear-gradient(top, #fddd04 0%, #ddc000 100%);
-  background: linear-gradient(top, #fddd04 0%, #ddc000 100%);
-  filter: progid:DXimgTransform.Microsoft.gradient(startColorstr='#FDDD04', endColorstr='#DDC000', GradientType=0);
-  box-shadow: inset 0px 1px 0px #ffea59;
-  -webkit-box-shadow: inset 0px 1px 0px #ffea59;
-  -moz-box-shadow: inset 0px 1px 0px #ffea59;
-  behavior: url(../script/PIE.htc);
-}
-a.small:hover,
-a.medium:hover,
-a.large:hover,
-a.xlarge:hover {
-  background: #DDC000;
-  background: -moz-linear-gradient(top, #ddc000 0%, #fddd04 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddc000), color-stop(100%, #fddd04));
-  background: -webkit-linear-gradient(top, #ddc000 0%, #fddd04 100%);
-  background: -o-linear-gradient(top, #ddc000 0%, #fddd04 100%);
-  background: -ms-linear-gradient(top, #ddc000 0%, #fddd04 100%);
-  background: linear-gradient(top, #ddc000 0%, #fddd04 100%);
-  filter: progid:DXimgTransform.Microsoft.gradient(startColorstr='#DDC000', endColorstr='#FDDD04', GradientType=0);
-  behavior: url(../script/PIE.htc);
-}
 .round {
   border-radius: 3px;
 }
@@ -419,6 +377,31 @@ a.xlarge:hover {
 .footer_wrapper {
   width: 960px;
   margin: 0 auto;
+}
+.logo {
+  zoom: 1;
+}
+.logo:before {
+  content: '';
+  display: block;
+}
+.logo:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.header_wrapper {
+  zoom: 1;
+  height: 120px;
+}
+.header_wrapper:before {
+  content: '';
+  display: block;
+}
+.header_wrapper:after {
+  content: '';
+  display: table;
+  clear: both;
 }
 /* https://github.com/Damao/normalize.css extend */
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
@@ -800,6 +783,12 @@ p {
 .ui-mr20 {
   margin-right: 20px;
 }
+.ui-w85p {
+  width: 85% !important;
+}
+.ui-w75p {
+  width: 75% !important;
+}
 .ui-vt {
   vertical-align: top !important;
 }
@@ -1104,6 +1093,7 @@ section.question button.next {
   display: none;
   margin-left: 400px;
 }
+<<<<<<< HEAD
 h1 {
   margin: 0 auto;
   font-size: 33px;
@@ -1113,6 +1103,55 @@ h1 {
   line-height: 1.1;
   color: inherit;
   box-sizing: border-box;
+=======
+/*
+* detail样式
+* @author:　<qubaoming@gmail>;
+*/
+.detail #result {
+  padding: 20px;
+  border: 1px solid gray;
+  position: relative;
+  zoom: 1;
+}
+.detail #result:before {
+  content: '';
+  display: block;
+}
+.detail #result:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.detail #result .content {
+  min-height: 50px;
+}
+.detail .detail-ok {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.detail #human_diagnose {
+  zoom: 1;
+  margin-top: 20px;
+}
+.detail #human_diagnose:before {
+  content: '';
+  display: block;
+}
+.detail #human_diagnose:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.detail #selected_content {
+  float: left;
+  margin-left: 30px;
+}
+.detail #selected_content .content {
+  margin-top: 20px;
+  margin-bottom: 10px;
+>>>>>>> 906c8be6a26b40803e123425ad3a968f157f7c68
 }
 section.questionsContent {
   width: 960px;

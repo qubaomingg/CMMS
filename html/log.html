@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>中医药自助式健康管理系统--健康记录</title>
+  <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="../css/css/basic.css" rel="stylesheet">
   <link href="../css/css/log.css" rel="stylesheet"></head>
 <body>
@@ -81,7 +82,7 @@
               <input type="text" name="name" onfocus="if(this.value=='请输入姓名'){this.value='';}" onblur="if(this.value==''){this.value='请输入姓名';}" value="请输入姓名"></td>
             <td>时间</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
           </tr>
           <tr>
             <td>体重</td>
@@ -116,7 +117,7 @@
           <tr>
             <td>早餐时间(例 08:00)</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
             <td>早餐内容</td>
             <td>
               <input type="text"></td>
@@ -124,7 +125,7 @@
           <tr>
             <td>午餐时间(例 12:30)</td>
             <td>
-              <input type="text"></td>
+              <input type="text"class="log-time"></td>
             <td>午餐内容</td>
             <td>
               <input type="text"></td>
@@ -132,7 +133,7 @@
           <tr>
             <td>晚餐时间(例 18:00)</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
             <td>晚餐内容</td>
             <td>
               <input type="text"></td>
@@ -140,7 +141,7 @@
           <tr>
             <td>一天内的主要心情状况</td>
             <td class="select">
-              <select>
+              <select class="form-control">
                 <option value ="">高兴</option>
                 <option value ="">悲伤</option>
                 <option value="">抑郁</option>
@@ -152,8 +153,8 @@
           </tr>
           <tr>
             <td>身体是否有不适</td>
-            <td class="select">
-              <select>
+            <td class="select" >
+              <select class="form-control">
                 <option value ="">是</option>
                 <option value ="">否</option>
               </select>
@@ -167,13 +168,13 @@
           <tr>
             <td>入睡时间(例 14:14)</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
             <td>起床时间(例 14:14)</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
             <td>睡眠质量</td>
             <td>
-              <select>
+              <select class="form-control">
                 <option value ="">差</option>
                 <option value ="">可以</option>
                 <option value="">良好</option>
@@ -189,31 +190,49 @@
               <input type="text"></td>
             <td>坐的时间(小时)</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
           </tr>
           <tr>
             <td>驾驶时间(小时)</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class="log-time"></td>
             <td>吸烟数量(支)</td>
             <td>
-              <input type="text"></td>
+              <select class="form-control">
+                <option value ="">&lt; 5</option>
+                <option value ="">10</option>
+                <option value ="">15</option>
+                <option value ="">20</option>
+                <option value ="">&gt; 20</option>
+              </select>
           </tr>
           <tr>
             <td>运动时间(小时)</td>
             <td>
-              <input type="text"></td>
+              <select class="form-control">
+                <option value ="">&lt; 30min</option>
+                <option value ="">40min</option>
+                <option value ="">50min</option>
+                <option value ="">1h</option>
+                <option value ="">&gt; 1h</option>
+              </select>
             <td>运动内容</td>
             <td>
-              <input type="text"></td>
+              <input type="text" class=""></td>
           </tr>
           <tr>
             <td>喝酒数量(ml)</td>
             <td>
-              <input type="text" value=""></td>
+              <select class="form-control">
+                <option value ="">&lt; 100ml</option>
+                <option value ="">200ml</option>
+                <option value ="">300ml</option>
+                <option value ="">500ml</option>
+                <option value ="">&gt; 500ml</option>
+              </select>
             <td>喝酒种类</td>
             <td class="select">
-              <select>
+              <select name=""  class="form-control">
                 <option value ="">啤酒</option>
                 <option value ="">低度白酒</option>
                 <option value ="">高度白酒</option>
@@ -226,10 +245,16 @@
           <tr>
             <td>饮水数量(ml)</td>
             <td>
-              <input type="text" value=""></td>
+              <select class="form-control">
+                <option value ="">&lt; 100ml</option>
+                <option value ="">200ml</option>
+                <option value ="">300ml</option>
+                <option value ="">500ml</option>
+                <option value ="">&gt; 500ml</option>
+              </select>
             <td>饮水种类</td>
             <td class="select">
-              <select>
+              <select class="form-control">
                 <option value ="">碳酸饮料</option>
                 <option value ="">白水</option>
                 <option value ="">茶</option>
@@ -241,7 +266,7 @@
           <tr>
             <td>是否食用保健</td>
             <td class="select">
-              <select>
+              <select  class="form-control">
                 <option value ="">是</option>
                 <option value ="">否</option>
               </select>
@@ -271,7 +296,7 @@
   </footer>
   <script src="../js/lib/seajs/sea.js"
         data-config="../js/config.js"
-        data-main="../js/log.js">
+        data-main="../js/log/log.js">
   </script>
 </body>
 </html>

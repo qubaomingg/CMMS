@@ -9,7 +9,7 @@ define(function(require) {
 	var util = require('util');
 	util.loadDateCss();
 	// datepicker
-	$('.log-time').datepicker({
+	$('.bodyTest-time').datepicker({
 	    format: 'mm-dd-yyyy'
 	});
 });
