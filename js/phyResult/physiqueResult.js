@@ -4,7 +4,7 @@
 
 define(function( require ){
     var $ = require( "jquery" );
-    require("jquery.easing");
+    require("bootstrap");
 
 
     function init(){

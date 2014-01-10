@@ -304,7 +304,7 @@ a.small:hover, a.medium:hover, a.large:hover, a.xlarge:hover {
   position: relative;
   width: 70% !important;
 }
-#main #myslides1 label { 
+#myslides1 label { 
   color: #999999; 
   font: italic 12px 'Droid Serif', Georgia, 'Times New Roman', serif; 
   text-shadow: 1px 1px 0 #FFFFFF; 

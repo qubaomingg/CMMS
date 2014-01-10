@@ -330,13 +330,13 @@ ul.sf_menu li li li.sfHover ul {
   padding-top: 30px;
   float: right;
 }
-#main .heading_top {
+.heading_top {
   height: 33px;
   line-height: 33px;
   margin: 0 auto 50px;
   width: 960px;
 }
-#main .heading_top h2 {
+.heading_top h2 {
   color: #333333;
   display: inline-block;
   float: left;
@@ -354,7 +354,7 @@ ul.sf_menu li li li.sfHover ul {
   position: relative;
   width: 70% !important;
 }
-#main #myslides1 label {
+#myslides1 label {
   color: #999999;
   font: italic 12px 'Droid Serif', Georgia, 'Times New Roman', serif;
   text-shadow: 1px 1px 0 #FFFFFF;
@@ -1093,7 +1093,6 @@ section.question button.next {
   display: none;
   margin-left: 400px;
 }
-<<<<<<< HEAD
 h1 {
   margin: 0 auto;
   font-size: 33px;
@@ -1103,7 +1102,65 @@ h1 {
   line-height: 1.1;
   color: inherit;
   box-sizing: border-box;
-=======
+}
+.content {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+.content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.content p.leadP {
+  font-size: 18px;
+  width: 800px;
+  margin: 0 auto;
+  text-indent: 36px;
+}
+.content .suggest p.leadP {
+  font-size: 16px;
+  width: 600px;
+  margin: 0 auto;
+  text-indent: 36px;
+}
+.content .suggest p:first-child {
+  text-indent: -36px;
+  padding-bottom: 10px;
+}
+.content address {
+  width: 500px;
+  margin: 0 auto;
+  text-indent: 36px;
+  margin-bottom: 20px;
+}
+.content address a {
+  font-size: 18px;
+  color: lightblue;
+  text-decoration: underline;
+}
+.content canvas {
+  border: 1px solid #f2dede;
+  height: 230px;
+  width: 800px;
+  margin-left: 78px;
+  margin-top: 20px;
+}
+.content .graphicName {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.content .graphicName span {
+  margin-left: 41px;
+}
 /*
 * detail样式
 * @author:　<qubaoming@gmail>;
@@ -1151,7 +1208,16 @@ h1 {
 .detail #selected_content .content {
   margin-top: 20px;
   margin-bottom: 10px;
->>>>>>> 906c8be6a26b40803e123425ad3a968f157f7c68
+}
+h1 {
+  margin: 0 auto;
+  font-size: 33px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  box-sizing: border-box;
 }
 section.questionsContent {
   width: 960px;
@@ -1244,73 +1310,5 @@ section.questionsContent .sixtyQuestion button {
 .trbg {
   background-color: antiquewhite;
   font-size: 14px;
-}
-h1 {
-  margin: 0 auto;
-  font-size: 33px;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
-  box-sizing: border-box;
-}
-.content {
-  width: 960px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  margin-top: 40px;
-}
-.content h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
-  padding-left: 40px;
-  padding-top: 20px;
-}
-.content p.leadP {
-  font-size: 18px;
-  width: 800px;
-  margin: 0 auto;
-  text-indent: 36px;
-}
-.content .suggest p.leadP {
-  font-size: 16px;
-  width: 600px;
-  margin: 0 auto;
-  text-indent: 36px;
-}
-.content .suggest p:first-child {
-  text-indent: -36px;
-  padding-bottom: 10px;
-}
-.content address {
-  width: 500px;
-  margin: 0 auto;
-  text-indent: 36px;
-  margin-bottom: 20px;
-}
-.content address a {
-  font-size: 18px;
-  color: lightblue;
-  text-decoration: underline;
-}
-.content canvas {
-  border: 1px solid #f2dede;
-  height: 230px;
-  width: 800px;
-  margin-left: 78px;
-  margin-top: 20px;
-}
-.content .graphicName {
-  width: 800px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-}
-.content .graphicName span {
-  margin-left: 41px;
 }
 /*# sourceMappingURL=cmss.css.map */
