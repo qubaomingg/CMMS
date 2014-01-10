@@ -267,6 +267,7 @@ a.small:hover, a.medium:hover, a.large:hover, a.xlarge:hover {
     margin: 0 auto;
     position: relative;
     width: 960px;
+    height: 120px;
 }
 #header .nav_menu {
     float: left;
