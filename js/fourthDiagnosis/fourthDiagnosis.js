@@ -4,7 +4,7 @@
 define(function(require){
 
     var $ = require("jquery");
-    require('bootstrap');
+    require ('jquery.easing');
 
     var femaleQuestion = [
         {
@@ -172,7 +172,7 @@ define(function(require){
             choose:"radio",
             question:"您的性欲情况",
             answer:["正常","性欲亢奋","性欲淡漠（性冷淡）"]
-        },
+        }
     ];
     var maleQuestion = [
         {
@@ -391,7 +391,7 @@ define(function(require){
 
         questions.find(".next").on("click", function(){
 
-            var value = selectQuestion.find("input[type = 'radio']:checked").val();
+            var value = selectQuestion.find("input:checked").val();
             if( value === undefined ){
                 alert("请选择您的答案");
             } else {
