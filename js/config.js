@@ -1,11 +1,10 @@
-
 seajs.config({
   // Enable plugins
   plugins: ['shim'],
   base: "../js",
- 
+
   paths: {
-    
+
   },
   // Configure alias
   alias: {
@@ -21,6 +20,9 @@ seajs.config({
     validation: "lib/jquery-plugin/validation/validation" ,
     'form-operate': "reg/form-operate",
     'reg-dialog': "reg/reg-dialog",
-    'physiqueMonitoring':"physique/physiqueMonitoring"
+    'physiqueMonitoring':"physique/physiqueMonitoring",
+    'fourthDiagnosis':"fourth/fourthDiagnosis",
+     'physiqueResult':"phyResult/physiqueResult"
   }
 });
+
