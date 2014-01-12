@@ -73,11 +73,17 @@
     <section class = "question">
 
 
-         <p>请选择您的性别（单选）</p>
+        <p>请选择您的性别（单选）</p>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+             <span class = "completeNum">0</span>/<span class = "totalNum"></span>
+                <!--<span class="sr-only">60% Complete</span>-->
+            </div>
+        </div>
         <div class = "selectQuestion">
             <div class="radio">
                 <label>
-                    <input type="radio" name="sex"   value="female" checked>
+                    <input type="radio" name="sex"   value="female">
                     女
                 </label>
             </div>
@@ -107,11 +113,7 @@
 
     <script src="../js/lib/seajs/sea.js"
             data-config="../js/config.js"
-<<<<<<< HEAD
-            data-main="../js/fourth/fourthDiagnosis.js">
-=======
             data-main="../js/fourthDiagnosis/fourthDiagnosis.js">
->>>>>>> 906c8be6a26b40803e123425ad3a968f157f7c68
     </script>
 </body>
 </html>

@@ -4,7 +4,9 @@
 define(function(require){
 
     var $ = require("jquery");
+    var showLocation = require("area");
     require ('jquery.easing');
+
 
     var result = {};
     var table = $(".sixtyQuestion").find("table");
@@ -85,7 +87,7 @@ define(function(require){
         return sexAgeRegion;
     }
 
-});
+
     function buttonClick() {
         $(".sixtyQuestion").on("click", function (){
             var value = $("table tr:last-child").find("input[type = 'radio'][name = '62']").val();
@@ -96,3 +98,5 @@ define(function(require){
         });
     }
     buttonClick();
+    showLocation();
+});

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>体质监测</title>
+    <title>中医药自助式健康管理系统--体质监测</title>
     <!-- style -->
     <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="../css/css/cmms.css" rel="stylesheet">
@@ -77,15 +77,14 @@
         <div class = "age ">
             <label>年龄&nbsp;<input class="form-control" type="text"    placeholder="请输入您的年龄" autofocus="true"></label>
         </div>
-        <div class = "region">
-            <label>地域&nbsp;<select class="form-control">
-                    <option>北京</option>
-                    <option>四川</option>
-                    <option>陕西</option>
-                    <option>云南</option>
-                    <option>西藏</option>
-                </select>
-            </label>
+
+        <div class="form-group">
+            <label class="form-left-label">出生地</label>
+                <div class="birth-place">
+                    <select id="loc_province"  name="province" class="select form-control"></select>
+                    <select id="loc_city" name="city" class="select form-control"></select>
+                    <select id="loc_town" name="city" class="select form-control"></select>
+                </div>
         </div>
         <button type="button" class="btn btn-default">提&nbsp;交</button>
     </div>

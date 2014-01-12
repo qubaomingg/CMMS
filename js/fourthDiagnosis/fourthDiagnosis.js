@@ -172,7 +172,7 @@ define(function(require){
             choose:"radio",
             question:"您的性欲情况",
             answer:["正常","性欲亢奋","性欲淡漠（性冷淡）"]
-        },
+        }
     ];
     var maleQuestion = [
         {
@@ -323,30 +323,47 @@ define(function(require){
     var nodeP = questions.find("p");
     var array;
     var questionNum;
+    var percentage;
     var count = 0;
+    var progress = $(".progress");
+    var completeNum = progress.find(".completeNum");
+    var totalNum = progress.find(".totalNum");
+    var progressBar = progress.find(".progress-bar");
     init();
 
     function init(){
+
+        progress.hide();
         $(".firstNext").on("click", function() {
 
-            var sexValue = selectQuestion.find("input[type = 'radio'][name = 'sex']:checked").val();
+            firstClick();
 
-            if( "male" === sexValue) {
-                array = maleQuestion;
-            } else {
-                array = femaleQuestion;
-            }
-
-            questionNum = array.length;
-
-            nodeP.text(array[0].question);
-            var html = createHtml(array[0]);
-            selectQuestion.html(html);
             questions.find(".prev").show();
             questions.find(".next").show();
         });
         prev();
         next();
+    }
+    function firstClick(){
+        var sexValue = selectQuestion.find("input[type = 'radio'][name = 'sex']:checked").val();
+        console.log(sexValue);
+        progress.show();
+
+        if( "male" === sexValue) {
+            array = maleQuestion;
+            totalNum.text("29");
+            percentage = 100/29;
+        } else {
+            array = femaleQuestion;
+            percentage = 100/34;
+            totalNum.text("34");
+        }
+
+        questionNum = array.length;
+        nodeP.text(array[0].question);
+        var html = createHtml(array[0]);
+        selectQuestion.html(html);
+
     }
 
     function createHtml( obj ) {
@@ -375,8 +392,12 @@ define(function(require){
                 html = "<div class = 'radio'><label><input type = 'radio' name = 'sex' value = 'female' checked>女</label></div><div class = 'radio'><label><input type = 'radio' name = 'sex' value = 'female' checked>男</label></div>";
                 selectQuestion.html(html);
                 nodeP.text("请选择您的性别");
+                progress.hide();
+                changeProgress(0);
+
             } else if( count > 0) {
                 count--;
+                changeProgress(count);
                 var objTmp = array[count];
                 html = createHtml(objTmp);
                 selectQuestion.html(html);
@@ -391,22 +412,24 @@ define(function(require){
 
         questions.find(".next").on("click", function(){
 
-            var value = selectQuestion.find("input[type = 'radio']:checked").val();
+            var value = selectQuestion.find("input:checked").val();
             if( value === undefined ){
                 alert("请选择您的答案");
             } else {
-                if( 27 === count ) {
+                if( 27 === count && 6!= value ) {
 
-//                    console.log(value);
-                    if( 6 != value ){
-                        count = count+3;
-                    }
-//                    console.log("count" + count);
+//                    if( 6 != value ){
+                    count = count+3;
+                    changeProgress(count);
+//                    }
+                } else if( 0 === count ){
+                  firstClick();
                 }
                 var html = "";
 
                 if(count < questionNum ){
                     count++;
+                    changeProgress(count);
                     var objTmp = array[count];
                     html = createHtml(objTmp);
                     selectQuestion.html(html);
@@ -417,6 +440,12 @@ define(function(require){
 
             }
         });
+    }
+    function changeProgress(count) {
+        completeNum.text(count);
+        var width = percentage * count;
+        progressBar.css("width",width+"%");
+
     }
 
 });
