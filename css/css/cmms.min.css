@@ -978,6 +978,18 @@ p {
   float: left;
   clear: both;
 }
+#reg .more-info,
+#reg_more .more-info {
+  width: 500px;
+  float: right;
+  display: none;
+}
+#reg .forBMI,
+#reg_more .forBMI,
+#reg .forTun,
+#reg_more .forTun {
+  display: block;
+}
 .star {
   color: #ff0000;
   position: relative;
@@ -1182,6 +1194,7 @@ h1 {
 }
 .detail #result .content {
   min-height: 50px;
+  width: auto;
 }
 .detail .detail-ok {
   position: absolute;

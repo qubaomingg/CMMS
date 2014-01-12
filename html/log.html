@@ -106,13 +106,31 @@
           <tr>
             <td>大便次数</td>
             <td>
-              <input type="text"></td>
+              <select class="form-control">
+                <option value ="">1</option>
+                <option value ="">2</option>
+                <option value ="">3</option>
+                <option value ="">4</option>
+                <option value ="">&gt;4</option>
+              </select>
             <td>小便次数</td>
             <td>
-              <input type="text"></td>
+              <select class="form-control">
+                <option value ="">&lt;3</option>
+                <option value ="">3</option>
+                <option value ="">4</option>
+                <option value ="">5</option>
+                <option value ="">6</option>
+                <option value ="">&gt;6</option>
+              </select>
             <td>在家中用餐次数</td>
             <td>
-              <input type="text"></td>
+              <select class="form-control">
+                <option value ="">0</option>
+                <option value ="">1</option>
+                <option value ="">2</option>
+                <option value ="">3</option>
+              </select>
           </tr>
           <tr>
             <td>早餐时间(例 08:00)</td>
@@ -184,18 +202,34 @@
           <tr>
             <td>是否在家中睡眠</td>
             <td>
-              <input type="text"></td>
+              <select class="form-control">
+                <option value ="">是</option>
+                <option value ="">不是</option>
+              </select>
             <td>是否出差</td>
             <td>
-              <input type="text"></td>
-            <td>坐的时间(小时)</td>
+              <select class="form-control">
+                <option value ="">是</option>
+                <option value ="">不是</option>
+              </select>
+            <td>坐车时间(小时)</td>
             <td>
-              <input type="text" class="log-time"></td>
+              <select class="form-control">
+                <option value ="">&lt;30min</option>
+                <option value ="">1h</option>
+                <option value ="">2h</option>
+                <option value ="">&gt;2h</option>
+              </select>
           </tr>
           <tr>
             <td>驾驶时间(小时)</td>
             <td>
-              <input type="text" class="log-time"></td>
+              <select class="form-control">
+                <option value ="">&lt;1h</option>
+                <option value ="">2h</option>
+                <option value ="">3h</option>
+                <option value ="">&gt;3h</option>
+              </select>
             <td>吸烟数量(支)</td>
             <td>
               <select class="form-control">
@@ -207,6 +241,9 @@
               </select>
           </tr>
           <tr>
+            <td>运动内容</td>
+            <td>
+              <input type="text" class=""></td>
             <td>运动时间(小时)</td>
             <td>
               <select class="form-control">
@@ -216,20 +253,9 @@
                 <option value ="">1h</option>
                 <option value ="">&gt; 1h</option>
               </select>
-            <td>运动内容</td>
-            <td>
-              <input type="text" class=""></td>
+            
           </tr>
           <tr>
-            <td>喝酒数量(ml)</td>
-            <td>
-              <select class="form-control">
-                <option value ="">&lt; 100ml</option>
-                <option value ="">200ml</option>
-                <option value ="">300ml</option>
-                <option value ="">500ml</option>
-                <option value ="">&gt; 500ml</option>
-              </select>
             <td>喝酒种类</td>
             <td class="select">
               <select name=""  class="form-control">
@@ -241,9 +267,7 @@
                 <option value ="">药酒</option>
               </select>
             </td>
-          </tr>
-          <tr>
-            <td>饮水数量(ml)</td>
+            <td>喝酒数量(ml)</td>
             <td>
               <select class="form-control">
                 <option value ="">&lt; 100ml</option>
@@ -252,6 +276,9 @@
                 <option value ="">500ml</option>
                 <option value ="">&gt; 500ml</option>
               </select>
+            
+          </tr>
+          <tr>
             <td>饮水种类</td>
             <td class="select">
               <select class="form-control">
@@ -262,6 +289,16 @@
                 <option value ="">其他</option>
               </select>
             </td>
+            <td>饮水数量(ml)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt; 100ml</option>
+                <option value ="">200ml</option>
+                <option value ="">300ml</option>
+                <option value ="">500ml</option>
+                <option value ="">&gt; 500ml</option>
+              </select>
+            
           </tr>
           <tr>
             <td>是否食用保健</td>
@@ -276,7 +313,7 @@
           </tr>
         </table>
         <div class="remark clear">
-          <textarea cols="30" rows="2">可填写备注</textarea>
+          <textarea cols="30" rows="2" placeholder="可填写备注"></textarea>
         </div>
         <span class="done">
             <a href="#" class="btn">完成</a>

@@ -152,6 +152,30 @@ define(function(require, exports, module) {
             });
             return result;
         }
+    },
+    showBMIs: function() {
+        $('#reg-weight').blur(function() {
+            var height = $('#reg-height').val();
+            var weight = $('#reg-weight').val();
+
+            if( height != '' && weight != '') {
+                var BMI = (height / (height * height)).toPrecision(3);
+                $('.BMI').html(BMI);
+                $(this).siblings('.more-info').show();
+            }
+        });
+
+        $('#reg-arm').blur(function() {
+            var waistline = $('#reg-waistline').val();
+            var arm = $('#reg-arm').val();
+
+            if( waistline != '' && arm != '') {
+                var Tun = (waistline / arm).toPrecision(3);
+                $('.Tun').html(Tun);
+                $(this).siblings('.more-info').show();
+            }
+        });
+        return false;
     }
   }
 });

@@ -44,7 +44,6 @@ td {
     padding: 2px;
 }
 input, textarea, select {
-    border: 0 none;
     color: #999999;
     font: 12px 'arial';
     padding: 4px;
@@ -187,6 +186,9 @@ ul.sf_menu li li li:hover ul, ul.sf_menu li li li.sfHover ul {
 .sf_menu > li:hover, .sf_menu > li.sfHover {
     background: none repeat scroll 0 0 #F9F9F9;
     box-shadow: 0 1px 3px #F6F6F6 inset;
+}
+.remark  textarea{
+  border: none;
 }
 .sf_menu > li.active {
 }
