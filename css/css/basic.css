@@ -44,7 +44,6 @@ td {
     padding: 2px;
 }
 input, textarea, select {
-    border: 0 none;
     color: #999999;
     font: 12px 'arial';
     padding: 4px;
@@ -188,6 +187,9 @@ ul.sf_menu li li li:hover ul, ul.sf_menu li li li.sfHover ul {
     background: none repeat scroll 0 0 #F9F9F9;
     box-shadow: 0 1px 3px #F6F6F6 inset;
 }
+.remark  textarea{
+  border: none;
+}
 .sf_menu > li.active {
 }
 .sf_menu ul {
@@ -267,6 +269,7 @@ a.small:hover, a.medium:hover, a.large:hover, a.xlarge:hover {
     margin: 0 auto;
     position: relative;
     width: 960px;
+    height: 120px;
 }
 #header .nav_menu {
     float: left;
@@ -304,7 +307,7 @@ a.small:hover, a.medium:hover, a.large:hover, a.xlarge:hover {
   position: relative;
   width: 70% !important;
 }
-#main #myslides1 label { 
+#myslides1 label { 
   color: #999999; 
   font: italic 12px 'Droid Serif', Georgia, 'Times New Roman', serif; 
   text-shadow: 1px 1px 0 #FFFFFF; 

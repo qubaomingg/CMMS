@@ -54,8 +54,8 @@
         </ul>
       </nav>
       <div class="buttons">
-        <a href="#" class="round small grey login">登录</a>
-        <a href="#" class="round small grey signin">注册</a>
+        <a href="#" class="btn btn-default login">登录</a>
+        <a href="#" class="btn btn-default signin">注册</a>
       </div>
     </section>
     <div class="clear"></div>
@@ -64,8 +64,14 @@
   <section id="main">
     <!-- 标题 -->
     <div class="heading_top">
-      <h2>注册_完善个人信息</h2>
+        <h2>注册</h2>
+        <div id="myslides1">
+            <label for="">
+                完善个人信息
+            </label>
+        </div>
     </div>
+    
     <!-- 标题end -->
 
     <div id = "container">
@@ -81,6 +87,11 @@
                     <label class="form-left-label" for="reg-weight"><span class="star">* </span>体重</label>
                     <input type="text" class="form-control" id="reg-weight">
                     <span>kg</span>
+                    <div class="more-info">
+                        <span class="forBMI">BMI指数： <span class="BMI">123</span></span>
+                        <span class="forBMI">BMI：即身体质量指数，是与体内脂肪总量密切相关的指标，主要反映全身性超重和肥胖。</span>    
+                    </div>
+                    
                 </div>
                 <div class="form-group">
                     <label class="form-left-label" for="reg-waistline">腰围</label>
@@ -91,6 +102,10 @@
                     <label class="form-left-label" for="reg-arm">臂围</label>
                     <input type="text" class="form-control" id="reg-arm">
                     <span>cm</span>
+                    <div class="more-info">
+                        <span class="forTun">腰臂比： <span class="BMI">123</span></span>
+                        <span class="forTun">腰围和臀围的比值，是判定中心性肥胖的重要指标。</span>    
+                    </div>
                 </div>
                 <div class="form-group">
                     <label class="form-left-label" for="reg-age"><span class="star">* </span>年龄</label>
@@ -377,8 +392,16 @@
 
                 <div class="form-group">
                     <label class="form-left-label ui-vt">药物依赖情况</label>
-                    <textarea class="form-control" name="" id="drug-dep">
-                    </textarea>
+                    <select name="" class="select form-control">
+                        <option value="01">酒精－巴比妥类</option>
+                        <option value="02">苯丙胺</option>
+                        <option value="03">大麻</option>
+                        <option value="03">阿片类</option>
+                        <option value="03">可卡因</option>
+                        <option value="03">致幻剂</option>
+                        <option value="03">挥发性化合物</option>
+                    </select>
+                    
                     
                 </div>
                 <div class="form-group">

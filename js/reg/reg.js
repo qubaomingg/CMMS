@@ -26,6 +26,7 @@ define(function(require) {
 		regForm.showOtherInput();
 		regForm.showDialog();
 		regForm.checkBeforeSubmit();
+		regForm.showBMIs();
 
 		// datepicker
 		$('.reg-date-picker').datepicker({
