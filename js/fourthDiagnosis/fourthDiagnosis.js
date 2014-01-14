@@ -345,8 +345,9 @@ define(function(require){
         next();
     }
     function firstClick(){
+
+        count++;
         var sexValue = selectQuestion.find("input[type = 'radio'][name = 'sex']:checked").val();
-        console.log(sexValue);
         progress.show();
 
         if( "male" === sexValue) {
@@ -363,6 +364,7 @@ define(function(require){
         nodeP.text(array[0].question);
         var html = createHtml(array[0]);
         selectQuestion.html(html);
+        changeProgress(count);
 
     }
 
@@ -386,19 +388,24 @@ define(function(require){
 
     function prev() {
         questions.find(".prev").on("click", function() {
+            if( count > 0 ){
+
+                count--;
+            }
 
             var html = "";
             if( 0 === count) {
-                html = "<div class = 'radio'><label><input type = 'radio' name = 'sex' value = 'female' checked>女</label></div><div class = 'radio'><label><input type = 'radio' name = 'sex' value = 'female' checked>男</label></div>";
+
+                html = "<div class = 'radio'><label><input type = 'radio' name = 'sex' value = 'female' checked>女</label></div><div class = 'radio'><label><input type = 'radio' name = 'sex' value = 'male' >男</label></div>";
                 selectQuestion.html(html);
                 nodeP.text("请选择您的性别");
                 progress.hide();
                 changeProgress(0);
 
             } else if( count > 0) {
-                count--;
+
                 changeProgress(count);
-                var objTmp = array[count];
+                var objTmp = array[count-1];
                 html = createHtml(objTmp);
                 selectQuestion.html(html);
                 nodeP.text(objTmp.question);
@@ -412,36 +419,41 @@ define(function(require){
 
         questions.find(".next").on("click", function(){
 
+            if( count > 0 ){
+
+                count++;
+            }
             var value = selectQuestion.find("input:checked").val();
             if( value === undefined ){
                 alert("请选择您的答案");
-            } else {
-                if( 27 === count && 6!= value ) {
+            }else{
+                 if( 28 === count && 6!== value ) {
 
-//                    if( 6 != value ){
                     count = count+3;
                     changeProgress(count);
-//                    }
-                } else if( 0 === count ){
-                  firstClick();
-                }
-                var html = "";
 
-                if(count < questionNum ){
-                    count++;
-                    changeProgress(count);
-                    var objTmp = array[count];
-                    html = createHtml(objTmp);
-                    selectQuestion.html(html);
-                    nodeP.text(objTmp.question);
-                }else if( count === questionNum) {
-                    alert("您已经答完所有题目")
-                }
+                 } else if( 0 === count ){
+                    firstClick();
+
+                 } else  if( count < questionNum ){
+
+                     var html = "";
+                     changeProgress(count);
+                     var objTmp = array[count-1];
+                     html = createHtml(objTmp);
+                     selectQuestion.html(html);
+                     nodeP.text(objTmp.question);
+
+                 }else if( count === ( questionNum + 1 )) {
+                        alert("您已经答完所有题目")
+                 }
 
             }
+
         });
     }
     function changeProgress(count) {
+
         completeNum.text(count);
         var width = percentage * count;
         progressBar.css("width",width+"%");
