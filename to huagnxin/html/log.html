@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>中医药自助式健康管理系统--健康记录</title>
+  <link href="../css/lib/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="../css/css/basic.css" rel="stylesheet">
+  <link href="../css/css/log.css" rel="stylesheet"></head>
+<body>
+  <header id="header">
+    <section class="header_wrapper">
+      <div class="logo">
+        <h1>
+          <a href="index.html">
+            <img src="../img/logo.png" alt="" title=""></a>
+        </h1>
+      </div>
+      <nav class="nav_menu">
+        <ul class="sf_menu enabled">
+          <li>
+            <a href="">体检诊断</a>
+            <ul>
+              <li>
+                <a href="">体质检测</a>
+              </li>
+              <li>
+                <a href="">四诊</a>
+              </li>
+              <li>
+                <a href="">详细诊断</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="">社区问答</a>
+          </li>
+          <li class="active">
+            <a href="">健康记录</a>
+            <ul>
+              <li>
+                <a href="">个人健康日志</a>
+              </li>
+              <li>
+                <a href="">慢病管理</a>
+              </li>
+              <li>
+                <a href="">特殊人群管理</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="">知识库</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="buttons">
+        <a href="#" class="btn btn-default login">登录</a>
+        <a href="#" class="btn btn-default signin">注册</a>
+      </div>
+    </section>
+    <div class="clear"></div>
+  </header>
+
+  <section id="main">
+    <!-- 标题 -->
+    <div class="heading_top">
+      <h2>个人健康日志</h2>
+      <div id="myslides1">
+        <label for="">－通过记录每日生活管理个人健康</label>
+      </div>
+    </div>
+    <!-- 标题end -->
+
+    <div id = "container">
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label for="name">姓名</label>
+            </td>
+            <td>
+              <input type="text" name="name" onfocus="if(this.value=='请输入姓名'){this.value='';}" onblur="if(this.value==''){this.value='请输入姓名';}" value="请输入姓名"></td>
+            <td>时间</td>
+            <td>
+              <input type="text" class="log-time"></td>
+          </tr>
+          <tr>
+            <td>体重</td>
+            <td>
+              <input type="text"></td>
+            <td>心率</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+          <tr>
+            <td>血压</td>
+            <td>
+              <input type="text"></td>
+            <td>餐前血糖</td>
+            <td>
+              <input type="text"></td>
+            <td>餐后血糖</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+          <tr>
+            <td>大便次数</td>
+            <td>
+              <select class="form-control">
+                <option value ="">1</option>
+                <option value ="">2</option>
+                <option value ="">3</option>
+                <option value ="">4</option>
+                <option value ="">&gt;4</option>
+              </select>
+            <td>小便次数</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt;3</option>
+                <option value ="">3</option>
+                <option value ="">4</option>
+                <option value ="">5</option>
+                <option value ="">6</option>
+                <option value ="">&gt;6</option>
+              </select>
+            <td>在家中用餐次数</td>
+            <td>
+              <select class="form-control">
+                <option value ="">0</option>
+                <option value ="">1</option>
+                <option value ="">2</option>
+                <option value ="">3</option>
+              </select>
+          </tr>
+          <tr>
+            <td>早餐时间(例 08:00)</td>
+            <td>
+              <input type="text" class="log-time"></td>
+            <td>早餐内容</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+          <tr>
+            <td>午餐时间(例 12:30)</td>
+            <td>
+              <input type="text"class="log-time"></td>
+            <td>午餐内容</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+          <tr>
+            <td>晚餐时间(例 18:00)</td>
+            <td>
+              <input type="text" class="log-time"></td>
+            <td>晚餐内容</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+          <tr>
+            <td>一天内的主要心情状况</td>
+            <td class="select">
+              <select class="form-control">
+                <option value ="">高兴</option>
+                <option value ="">悲伤</option>
+                <option value="">抑郁</option>
+                <option value="">平静</option>
+                <option value="">喜忧参半</option>
+                <option value="">气氛</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>身体是否有不适</td>
+            <td class="select" >
+              <select class="form-control">
+                <option value ="">是</option>
+                <option value ="">否</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>不适的内容</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+          <tr>
+            <td>入睡时间(例 14:14)</td>
+            <td>
+              <input type="text" class="log-time"></td>
+            <td>起床时间(例 14:14)</td>
+            <td>
+              <input type="text" class="log-time"></td>
+            <td>睡眠质量</td>
+            <td>
+              <select class="form-control">
+                <option value ="">差</option>
+                <option value ="">可以</option>
+                <option value="">良好</option>
+                <option value="">非常好</option>
+              </select>
+          </tr>
+          <tr>
+            <td>是否在家中睡眠</td>
+            <td>
+              <select class="form-control">
+                <option value ="">是</option>
+                <option value ="">不是</option>
+              </select>
+            <td>是否出差</td>
+            <td>
+              <select class="form-control">
+                <option value ="">是</option>
+                <option value ="">不是</option>
+              </select>
+            <td>坐车时间(小时)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt;30min</option>
+                <option value ="">1h</option>
+                <option value ="">2h</option>
+                <option value ="">&gt;2h</option>
+              </select>
+          </tr>
+          <tr>
+            <td>驾驶时间(小时)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt;1h</option>
+                <option value ="">2h</option>
+                <option value ="">3h</option>
+                <option value ="">&gt;3h</option>
+              </select>
+            <td>吸烟数量(支)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt; 5</option>
+                <option value ="">10</option>
+                <option value ="">15</option>
+                <option value ="">20</option>
+                <option value ="">&gt; 20</option>
+              </select>
+          </tr>
+          <tr>
+            <td>运动内容</td>
+            <td>
+              <input type="text" class=""></td>
+            <td>运动时间(小时)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt; 30min</option>
+                <option value ="">40min</option>
+                <option value ="">50min</option>
+                <option value ="">1h</option>
+                <option value ="">&gt; 1h</option>
+              </select>
+            
+          </tr>
+          <tr>
+            <td>喝酒种类</td>
+            <td class="select">
+              <select name=""  class="form-control">
+                <option value ="">啤酒</option>
+                <option value ="">低度白酒</option>
+                <option value ="">高度白酒</option>
+                <option value ="">红酒</option>
+                <option value ="">黄酒</option>
+                <option value ="">药酒</option>
+              </select>
+            </td>
+            <td>喝酒数量(ml)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt; 100ml</option>
+                <option value ="">200ml</option>
+                <option value ="">300ml</option>
+                <option value ="">500ml</option>
+                <option value ="">&gt; 500ml</option>
+              </select>
+            
+          </tr>
+          <tr>
+            <td>饮水种类</td>
+            <td class="select">
+              <select class="form-control">
+                <option value ="">碳酸饮料</option>
+                <option value ="">白水</option>
+                <option value ="">茶</option>
+                <option value ="">咖啡</option>
+                <option value ="">其他</option>
+              </select>
+            </td>
+            <td>饮水数量(ml)</td>
+            <td>
+              <select class="form-control">
+                <option value ="">&lt; 100ml</option>
+                <option value ="">200ml</option>
+                <option value ="">300ml</option>
+                <option value ="">500ml</option>
+                <option value ="">&gt; 500ml</option>
+              </select>
+            
+          </tr>
+          <tr>
+            <td>是否食用保健</td>
+            <td class="select">
+              <select  class="form-control">
+                <option value ="">是</option>
+                <option value ="">否</option>
+              </select>
+            <td>食用保健内容</td>
+            <td>
+              <input type="text"></td>
+          </tr>
+        </table>
+        <div class="remark clear">
+          <textarea cols="30" rows="2" placeholder="可填写备注"></textarea>
+        </div>
+        <span class="done">
+            <a href="#" class="btn">完成</a>
+            <a href="#" class="btn">填写体格检测表</a>
+          </span>
+        <div class="clear"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div id="footer_bot">
+      <div class="footer_wrapper">
+        <label>© 2013. copyright.</label>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/lib/seajs/sea.js"
+        data-config="../js/config.js"
+        data-main="../js/log/log.js">
+  </script>
+</body>
+</html>

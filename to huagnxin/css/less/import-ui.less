@@ -1,0 +1,63 @@
+//----------------------------
+//
+//  UI class
+//
+//----------------------------
+
+@import "import-var";
+@import "import-mixins";
+
+// 样式。
+.ui-m0 {
+	margin: 0;
+}
+.ui-hide {
+	display: none;
+}
+.ui-inline-bock {
+	display: inline-block;
+}
+.ui-mr20 {
+	margin-right: 20px;
+}
+.ui-w85p {
+	width: 85% !important;
+}
+.ui-w75p {
+	width: 75% !important;
+}
+.ui-vt {
+	vertical-align: top !important;
+}
+.ui-center {
+	text-align: center;
+}
+// 文字溢出
+// --------------------------
+.ui-tof{
+	.text-overflow()
+}
+
+// Fluid 布局
+// --------------------------
+.ui-full{
+	width:100%;
+	display:block;
+}
+
+// clearfix
+// --------------------------
+.ui-clearfix {
+	.clearfix();
+}
+
+// zoom
+// --------------------------
+.ui-zoom{ zoom:1; }
+
+
+// 虚拟格式
+// --------------------------
+.ui-cur-d{ cursor:default; }
+.ui-cur-p{ cursor:pointer; }
+
