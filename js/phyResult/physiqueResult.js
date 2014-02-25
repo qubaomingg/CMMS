@@ -95,7 +95,13 @@ define(function( require ){
              var pointX = (num-1) * 81 + 45;
              var pointY = 230 - height;
              var ctx = canvas.getContext("2d");
-             ctx.fillStyle = "rgb(120, 70, 20)";
+             if( height > 190 ){
+                 ctx.fillStyle = "red";
+             }else if( height > 150 && height <= 190){
+                 ctx.fillStyle = "green";
+             }else{
+                 ctx.fillStyle = "yellow";
+             }
              ctx.fillRect(pointX, pointY, 36, height);
          } else {
              alert("你的浏览器太低级了，快升级浏览器吧~推荐chrome哦~~~");
