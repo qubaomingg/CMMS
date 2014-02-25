@@ -96,11 +96,11 @@ define(function( require ){
              var pointY = 230 - height;
              var ctx = canvas.getContext("2d");
              if( height > 190 ){
-                 ctx.fillStyle = "red";
+                 ctx.fillStyle = "rgb(254, 67, 101)";
              }else if( height > 150 && height <= 190){
-                 ctx.fillStyle = "green";
+                 ctx.fillStyle = "rgb(131, 175, 155)";
              }else{
-                 ctx.fillStyle = "yellow";
+                 ctx.fillStyle = "rgb(245, 205, 173)";
              }
              ctx.fillRect(pointX, pointY, 36, height);
          } else {
