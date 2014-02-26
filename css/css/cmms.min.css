@@ -1200,7 +1200,7 @@ h1 {
   display: table;
   clear: both;
 }
-.detail #result .content {
+.detail #result .result-content {
   min-height: 50px;
   width: auto;
 }

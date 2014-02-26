@@ -7,13 +7,13 @@ define(function(require, exports, module) {
 	        css.href = src;
 	        css.rel = 'stylesheet';
 	        css.type = 'text/css';
-	        head.appendChild(css);	
+	        head.appendChild(css);
 		},
 		loadDateCss: function() {
 			var jquery_plugin_css = ['../css/lib/datepicker.css', '../css/lib/font-awesome/css/font-awesome.css'];
 			var _this = this;
 			$.each(jquery_plugin_css, function(no, css) {
-				_this.addLink(css);	
+				_this.addLink(css);
 			});
 		}
 	};

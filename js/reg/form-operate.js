@@ -154,10 +154,10 @@ define(function(require, exports, module) {
         }
     },
     showBMIs: function() {
+      
         $('#reg-weight').blur(function() {
             var height = $('#reg-height').val();
             var weight = $('#reg-weight').val();
-
             if( height != '' && weight != '') {
                 var BMI = (height / (height * height)).toPrecision(3);
                 $('.BMI').html(BMI);

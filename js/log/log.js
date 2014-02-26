@@ -2,6 +2,10 @@ define(function(require) {
 	var $ = require('jquery');
 	require('bootstrap');
 	
+	require('../lib/jquery.ui.timepicker');
+	require('../lib/jquery.ui.position.min');
+	
+	
 	require('datepicker');
 
 
@@ -9,8 +13,12 @@ define(function(require) {
 	var util = require('util');
 	util.loadDateCss();
 	// datepicker
-	$('.log-time').datepicker({
+	$('.log-date').datepicker({
 	    format: 'mm-dd-yyyy'
 	});
+	$('.log-time').timepicker({
+        showPeriod: true,
+        showLeadingZero: true
+    });
 });
 

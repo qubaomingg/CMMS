@@ -1,4 +1,4 @@
-#result .content span { 
+#result .result-content span { 
     background: url('../../img/minus.png') no-repeat  0 0 #4A5151; 
     border-radius: 4px 4px 4px 4px; 
     -moz-border-radius: 4px 4px 4px 4px; 
