@@ -1098,9 +1098,17 @@ section.question p {
   font-size: 20px;
   color: #666;
 }
+section.question div.selectQuestion {
+  width: 90%;
+  margin: 0 auto;
+}
 section.question div.selectQuestion div {
-  margin-left: 150px;
-  vertical-align: super;
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: bottom;
+}
+section.question div.selectQuestion div label {
+  font-size: 14px;
 }
 section.question div.selectQuestion button {
   margin-left: 400px;
@@ -1126,7 +1134,9 @@ h1 {
 .content {
   width: 960px;
   margin: 0 auto;
-  background-color: #ffffff;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.04);
+  background: none repeat scroll 0 0 #FFF;
+  border: 4px double #F6F6F6;
   margin-top: 40px;
 }
 .content h2 {
@@ -1140,10 +1150,10 @@ h1 {
   padding-top: 20px;
 }
 .content p.leadP {
-  font-size: 18px;
+  font-size: 16px;
   width: 800px;
   margin: 0 auto;
-  text-indent: 36px;
+  text-indent: 32px;
 }
 .content .suggest p.leadP {
   font-size: 16px;
@@ -1156,14 +1166,13 @@ h1 {
   padding-bottom: 10px;
 }
 .content address {
-  width: 500px;
+  width: 527px;
   margin: 0 auto;
-  text-indent: 36px;
   margin-bottom: 20px;
 }
 .content address a {
-  font-size: 18px;
-  color: lightblue;
+  font-size: 14px;
+  color: #3276b1;
   text-decoration: underline;
 }
 .content canvas {
@@ -1172,6 +1181,7 @@ h1 {
   width: 800px;
   margin-left: 78px;
   margin-top: 20px;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.04);
 }
 .content .graphicName {
   width: 800px;
