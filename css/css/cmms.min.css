@@ -1195,6 +1195,9 @@ h1 {
 * detail样式
 * @author:　<qubaoming@gmail>;
 */
+.detail .content {
+  width: auto;
+}
 .detail #result {
   padding: 20px;
   border: 1px solid gray;
@@ -1237,6 +1240,7 @@ h1 {
   margin-left: 30px;
 }
 .detail #selected_content .content {
+  width: auto;
   margin-top: 20px;
   margin-bottom: 10px;
 }

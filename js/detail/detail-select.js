@@ -108,9 +108,10 @@ define(function(require, exports, module) {
         $('.content').on('click', '.symptom', function() {
           $(this).addClass('selected');
           var dataNum = $(this).attr('data-num');
-          
+          console.log(dataNum);
           if( !_this.checkExist(dataNum) ) {
-            $('#result .content').append($(this).clone(false));
+            console.log(dataNum);
+            $('#result .result-content').append($(this).clone(false));
           } else {
             alert('您选择的症状已经在结论区了，无需重复添加.');
           }
@@ -119,7 +120,7 @@ define(function(require, exports, module) {
 
       resultRes: function() {
           var _this = this;
-          $('#result .content').on('click', 'span', function() {
+          $('#result .result-content').on('click', 'span', function() {
             $(this).animate({
               'width': '0',
               'height': '0',
@@ -134,7 +135,7 @@ define(function(require, exports, module) {
       checkExist: function(dataNum) {
         var returnValue = false;
 
-        $('#result .content').find('span').each(function() {
+        $('#result .result-content').find('span').each(function() {
             console.log($(this).attr('data-num'));
             if($(this).attr('data-num') === dataNum ) {
                 returnValue = true;
