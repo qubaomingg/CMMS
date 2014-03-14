@@ -154,12 +154,11 @@ define(function(require, exports, module) {
         }
     },
     showBMIs: function() {
-      
         $('#reg-weight').blur(function() {
-            var height = $('#reg-height').val();
+            var height = $('#reg-height').val()/100;
             var weight = $('#reg-weight').val();
             if( height != '' && weight != '') {
-                var BMI = (height / (height * height)).toPrecision(3);
+                var BMI = (weight / (height * height)).toPrecision(3);
                 $('.BMI').html(BMI);
                 $(this).siblings('.more-info').show();
             }

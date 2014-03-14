@@ -777,6 +777,16 @@ p {
 .ui-hide {
   display: none;
 }
+.ui-mr5 {
+  margin-right: 5px !important;
+}
+.ui-layMiddle {
+  height: 43px !important;
+  line-height: 43px !important;
+}
+.ui-vt {
+  vertical-align: top !important;
+}
 .ui-inline-bock {
   display: inline-block;
 }
@@ -1120,6 +1130,40 @@ section.question button.prev {
 section.question button.next {
   display: none;
   margin-left: 400px;
+}
+/*
+* 注册页面样式
+* @author:　<qubaoming@gmail>;
+*/
+#container table.table-bordered {
+  border: 1px solid #ddd;
+}
+#container table.table-bordered td {
+  border: none;
+}
+#container table.table-bordered td input,
+#container table.table-bordered td select,
+#container table.table-bordered td textarea {
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+#container table.table-bordered .textRight {
+  text-align: right;
+  vertical-align: middle;
+}
+#container table.table-bordered .desInput {
+  width: 60% !important;
+  margin-left: 5px;
+}
+.body-test input {
+  width: 100%;
+}
+.body-test input[type="radio"] {
+  width: auto;
+  margin-left: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: -3px;
 }
 h1 {
   margin: 0 auto;

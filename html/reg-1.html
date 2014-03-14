@@ -89,7 +89,7 @@
                     <span>kg</span>
                     <div class="more-info">
                         <span class="forBMI">BMI指数： <span class="BMI">123</span></span>
-                        <span class="forBMI">BMI：即身体质量指数，是与体内脂肪总量密切相关的指标，主要反映全身性超重和肥胖。</span>    
+                        <span class="forBMI">BMI：即身体质量指数.正常:20-25, 大于25为肥胖, 小于20为瘦弱.</span>    
                     </div>
                     
                 </div>
@@ -104,7 +104,7 @@
                     <span>cm</span>
                     <div class="more-info">
                         <span class="forTun">腰臂比： <span class="BMI">123</span></span>
-                        <span class="forTun">腰围和臀围的比值，是判定中心性肥胖的重要指标。</span>    
+                        <span class="forTun">肥胖的重要指标。男性大于0.9，女性大于0.8，为中心性肥胖</span>    
                     </div>
                 </div>
                 <div class="form-group">
@@ -153,7 +153,11 @@
                 
                 <div class="form-group">
                     <label class="form-left-label" for="reg-addr"><span class="star">* </span>常住地址</label>
-                    <input type="text" class="form-control" id="reg-addr">
+                     <div class="birth-place">
+                        <select id="loc_province"  name="province" class="select form-control"></select>
+                        <select id="loc_city" name="city" class="select form-control"></select>
+                        <select id="loc_town" name="city" class="select form-control"></select>
+                    </div>
                 </div>
                 
                 <div class="form-group">
@@ -181,33 +185,7 @@
                         <option value="04">伊斯兰教</option>
                     </select>
                 </div>
-                <div class="form-group reg-lay-one-line">
-                    <label class="form-left-label"><span class="star">* </span>从事行业</label>
-                    <select name="" class="select form-control reg-career">
-                        <option value="01">Web前端</option>
-                        <option value="02">xx</option>
-                        <option value="03">xx</option>
-                        <option value="04">xx</option>
-                    </select>
-                </div>
-                <div class="form-group reg-lay-one-line">
-                    <label class="form-left-label"><span class="star">* </span>行业性质</label>
-                    <select name="" class="select form-control reg-career">
-                        <option value="01">IT</option>
-                        <option value="02">xx</option>
-                        <option value="03">xx</option>
-                        <option value="04">xx</option>
-                    </select>
-                </div>
-                <div class="form-group reg-lay-one-line">
-                    <label class="form-left-label">级别</label>
-                    <select name="" class="select form-control reg-career">
-                        <option value="01">主管</option>
-                        <option value="02">xx</option>
-                        <option value="03">xx</option>
-                        <option value="04">xx</option>
-                    </select>
-                </div>
+               
 
                 <div class="form-group reg-lay-one-line">
                     <label class="form-left-label"><span class="star">* </span>睡眠规律</label>
@@ -233,28 +211,25 @@
                 </div>
                 
                 <div class="form-group reg-lay-one-line">
-                    <label class="form-left-label">生活工作习惯</label>
-                    <select name="" class="select form-control">
-                        <option value="01">优雅</option>
-                        <option value="02">嘈杂</option>
-                        <option value="03">安静</option>
-                    </select>
+                    <label class="form-left-label">工作习惯</label>
+                    <label for="custom1">优雅</label> <input type="checkbox" id="custom1" name="custom" class="ui-mr5">
+                    <label for="custom2">嘈杂</label>   <input type="checkbox" id="custom2" name="custom" class="ui-mr5">
+                    <label for="custom3">安静</label>    <input type="checkbox" id="custom3" name="custom" value="">
                 </div>
                 
                 <div class="form-group reg-lay-one-line">
                     <label class="form-left-label">饮食习惯</label>
-                    <select name="" class="select form-control">
-                        <option value="01">规律</option>
-                        <option value="02">不规律</option>
-                        <option value="03">很规律</option>
-                    </select>
+                   <label for="habits1">清淡</label> <input type="checkbox" id="habits1" name="habits" class="ui-mr5">
+                    <label for="habits2">不清淡</label>   <input type="checkbox" id="habits2" name="habits" class="ui-mr5">
+                    <label for="habits3">无</label>    <input type="checkbox" id="habits3" name="habits" value="">
                 </div>
+
                 <div class="form-group">
                     <label class="form-left-label">饮食口味</label>
                     <select name="" class="select form-control">
                         <option value="01">清淡</option>
-                        <option value="02">清淡</option>
-                        <option value="03">清淡</option>
+                        <option value="02">荤</option>
+                        <option value="03">不清淡</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -311,13 +286,39 @@
 
                 <div class="form-group">
                     <label class="form-left-label"><span class="star">* </span>药物过敏史</label>
-                    <select name="" id="ill-bear" class="select form-control">
-                        <option value="01">青霉素</option>
-                        <option value="02">氨基酸</option>
-                        <option value="03">无</option>
+                    <label for="drug1">青霉素</label> <input type="checkbox" id="drug1" name="drugallergy" class="ui-mr5">
+                    <label for="drug2">氨基酸</label>   <input type="checkbox" id="drug2" name="drugallergy" class="ui-mr5">
+                    <label for="drug3">无</label>    <input type="checkbox" id="drug3" name="drugallergy" value="">
+                   
+                   
+                </div>
+                <div class="form-group reg-lay-one-line">
+                    <label class="form-left-label"><span class="star">* </span>从事行业</label>
+                    <select name="" class="select form-control reg-career">
+                        <option value="01">Web前端</option>
+                        <option value="02">java后台</option>
+                        <option value="03">架构</option>
+                        <option value="04">产品</option>
                     </select>
                 </div>
-
+                <div class="form-group reg-lay-one-line">
+                    <label class="form-left-label"><span class="star">* </span>行业性质</label>
+                    <select name="" class="select form-control reg-career">
+                        <option value="01">IT</option>
+                        <option value="02">xx</option>
+                        <option value="03">xx</option>
+                        <option value="04">xx</option>
+                    </select>
+                </div>
+                <div class="form-group reg-lay-one-line">
+                    <label class="form-left-label">级别</label>
+                    <select name="" class="select form-control reg-career">
+                        <option value="01">主管</option>
+                        <option value="02">xx</option>
+                        <option value="03">xx</option>
+                        <option value="04">xx</option>
+                    </select>
+                </div>
                 <div class="form-group">
                     <label class="form-left-label ui-vt"><span class="star">* </span>疾病信息</label>
                     <div class="reg-right-table">

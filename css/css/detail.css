@@ -33,6 +33,27 @@
     display: block;
     cursor: pointer;
 }
+
+#human_diagnose .body .chest:hover {
+    background: url('../../img/detail/chest.png');
+}
+#human_diagnose .body .chest {
+    width: 123px;
+    height: 36px;
+    top: 85px;
+    left: 42px;
+}
+
+#human_diagnose .body .waist {
+    width: 93px;
+    height: 36px;
+    top: 186px;
+    left: 56px;
+}
+
+#human_diagnose .body .waist:hover {
+    background: url('../../img/detail/waist.png');
+}
 #human_diagnose .body .foot {
     width: 77px;
     height: 36px;
@@ -97,14 +118,16 @@
     background: url('../../img/detail/neck.png');
 }
 #human_diagnose .body .head {
-    width: 41px;
+    width: 64px;
     height: 44px;
-    top: 5px;
-    left: 82px;
+    top: 3px;
+    left: 65px;
 }
 #human_diagnose .body .head:hover {
     background: url('../../img/detail/head.png');
 }
+
+
 #human_diagnose .body .lung_left {
     width: 38px;
     height: 69px;
@@ -181,7 +204,7 @@
     border-radius: 40px;
 }
 #human_diagnose #selected_content {
-    width: 400px;
+    width: 70%;
     margin-top: 50px;
     font-size: 14px;
 }
